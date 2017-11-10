@@ -38,6 +38,7 @@ Il est utilisé par le CMS pour charger les fichiers javascript dans l'ordre ind
 Pour que le fichier javascript soit inclus et chargé dans le site, il faut donc : 
 
 1 - Le rajouter dans le dossier JS
+
 2 - Le rajouter à la fin dans le fichier "loading.lst"
 
 ## Surcharger le thème initial
