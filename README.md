@@ -13,7 +13,19 @@ Ces fichiers de ressources (css / images / javascript / favicon...) sont les fic
 Le CMS charge les fichiers dans l'ordre du dépôt, de haut en bas. 
 
 ```
-Exemple, dans le dossier CSS du dépôt actuel, le premier fichier css chargé sera le fichier 'common-add-calendar.css' et le dernier sera  : 'surcharge.css'
+Exemple, dans le dossier CSS du dépôt actuel, le premier fichier css chargé sera :
+
+'common-add-calendar.css' 
+          |
+'common-langswitcher.css'
+          |
+         ...
+          |
+         ...
+          |
+'styles-base-corporate.css'
+          |
+    'surcharge.css'
 
 ```
 
@@ -30,7 +42,10 @@ Pour que le fichier javascript soit inclus et chargé dans le site, il faut donc
 
 ## Surcharger le thème initial
 
-Pour surcharger le style, vous devez rajouter votre code CSS dans le fichier "surcharge.css" qui se trouve dans le dossier CSS. 
+###Pour rajouter du code CSS
 
-Pour rajouter du code javascript, vous devrez rajouter directement vos fichiers dans le dossier JS et les inscrire dans le fichier loading.lst pour qu'ils soient chargés
+Vous devez rajouter votre code CSS dans le fichier à cet effet "surcharge.css" qui se trouve dans le dossier CSS. Libre à vous de rajouter vos fichiers dans le dossier. Ils seront également chargés dans l'ordre indiqué ci-dessus.
 
+###Pour rajouter du code javascript
+
+Vous devrez rajouter directement vos fichiers dans le dossier JS et les inscrire dans le fichier loading.lst pour qu'ils soient chargés
