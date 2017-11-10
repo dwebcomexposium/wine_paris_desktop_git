@@ -42,10 +42,10 @@ Pour que le fichier javascript soit inclus et chargé dans le site, il faut donc
 
 ## Surcharger le thème initial
 
-###Pour rajouter du code CSS
+### Pour rajouter du code CSS
 
 Vous devez rajouter votre code CSS dans le fichier à cet effet "surcharge.css" qui se trouve dans le dossier CSS. Libre à vous de rajouter vos fichiers dans le dossier. Ils seront également chargés dans l'ordre indiqué ci-dessus.
 
-###Pour rajouter du code javascript
+### Pour rajouter du code javascript
 
 Vous devrez rajouter directement vos fichiers dans le dossier JS et les inscrire dans le fichier loading.lst pour qu'ils soient chargés
