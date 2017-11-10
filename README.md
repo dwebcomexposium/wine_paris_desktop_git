@@ -48,4 +48,4 @@ Vous devez rajouter votre code CSS dans le fichier à cet effet "surcharge.css" 
 
 ### Pour rajouter du code javascript
 
-Vous devrez rajouter directement vos fichiers dans le dossier JS et les inscrire dans le fichier loading.lst pour qu'ils soient chargés
+Vous devrez rajouter directement vos fichiers dans le dossier JS et les inscrire dans le fichier loading.lst pour qu'ils soient chargés comme indiqué ci-dessus.
