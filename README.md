@@ -41,6 +41,8 @@ Pour que le fichier javascript soit inclus et chargé dans le site, il faut donc
 
 2 - Le rajouter à la fin dans le fichier "loading.lst"
 
+**SI VOUS NE LISTEZ PAS VOS FICHIERS JS DANS LE LOADING.LST, ILS NE SERONT PAS CHARGES**
+
 ## Surcharger le thème initial
 
 ### Pour rajouter du code CSS
