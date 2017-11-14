@@ -1,4 +1,4 @@
-# Thème / Framework minimal pour Guideline version Desktop
+# Thème / Framework minimal version Desktop
 
 Fichiers de ressources du site Guideline
 
