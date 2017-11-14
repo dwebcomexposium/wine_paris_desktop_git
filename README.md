@@ -2,7 +2,7 @@
 
 Ces fichiers constituent le thème par défaut de nos sites. 
 
-Il servent à habiller un minimum le code HTML généré par le CMS, mais également à génrérer le fonctionnement javascript des modules chargés.
+Il servent à habiller un minimum le code HTML généré par le CMS, mais également à génrérer le fonctionnement javascript de nos modules .
 
 ## Qu'est ce que c'est ?
 
