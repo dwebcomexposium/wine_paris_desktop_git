@@ -1,6 +1,8 @@
 # Thème / Framework minimal version Desktop
 
-Fichiers de ressources du site Guideline
+Ces fichiers constituent le thème par défaut de nos sites. 
+
+Il servent à habiller un minimum le code HTML généré par le CMS, mais également à génrérer le fonctionnement javascript des modules chargés.
 
 ## Qu'est ce que c'est ?
 
