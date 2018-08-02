@@ -936,13 +936,25 @@ body.exposer header .links-subheader { display: none; }
     Cookie
 \* ------------------------------------------------------------ */
 
-.cookies { position: fixed; bottom: 0; left: 0; width: 100%; background: #231f20; color: #fff; padding: 20px 0; z-index: 100; }
+/*.cookies { position: fixed; bottom: 0; left: 0; width: 100%; background: #231f20; color: #fff; padding: 20px 0; z-index: 100; }
 .cookies p { font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 13px; line-height: 1.54; letter-spacing: 0.06em;  }
 .cookies p a { color: #fff; text-decoration: none; display: inline-block; position: relative; }
 .cookies p a:after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; background: #ef662f; transition: width .4s;  }
 
 .cookies .btn-alt { position: absolute; top: 50%; right: 14px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); margin-top: 4px; padding: 12px 14px 10px; }
-.cookies .shell { max-width: 1028px; position: relative; padding-right: 190px; }
+.cookies .shell { max-width: 1028px; position: relative; padding-right: 190px; }*/
+
+
+
+
+.cc-cookies { top: auto; bottom: 0; padding: 15px 0; box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.22); font-size: 16px; line-height: 1.38; font-weight: 300; letter-spacing: 0.05em; color: #fff; background: #231f20; }
+
+.cc-cookies .inside { position: relative; max-width: 1010px; padding-right: 180px; }
+.cc-cookies .cc-cookie-link { color: #fff; }
+.cc-cookies .cc-cookie-accept { color: #fff; text-transform: uppercase; background: none; border: 1px solid #fff; margin-top: 5px; }
+.cc-cookies .cc-cookie-accept:after { background-image: url(images/ico-arrow-right-white.svg); }
+
+
 
 /* ------------------------------------------------------------ *\
     Main Navigation
@@ -1124,7 +1136,7 @@ header.site-banner { background: none !important; position: absolute; top: 0; le
 header.site-banner .inside { max-width: 100%; position: relative; left: 20px; }
 header.site-banner:after { content: ''; position: absolute; top: 40px; left: 50%; margin-left: -710px; background: url(images/logo.png) no-repeat 0 0; width: 103px; height: 144px; -webkit-background-size: 100% 100%; background-size: 100% 100%; opacity: 0; visibility: hidden; -webkit-transition: opacity .4s, visibility .4s; -o-transition: opacity .4s, visibility .4s; transition: opacity .4s, visibility .4s; box-shadow: 0 0 20px 0 rgba(0, 0, 0, .6); display: none;  }
 
-header.site-banner .header-content { position: absolute; top: 39px; left: 77px; padding-left: 167px; text-align: left; }
+header.site-banner .header-content { position: absolute; top: 39px; /*left: 77px;*/ padding-left: 167px; text-align: left; }
 header.site-banner .header-content h3 { margin: 8px 0 0; color: #fff; font-weight: 900; font-size: 18px; letter-spacing: 0.075em; text-align: left; text-transform: uppercase; line-height: 1; }
 header.site-banner .header-content h3 span { display: block; font-size: 11px; letter-spacing: 0.11em; }
 header.site-banner .header-content .logo--small { width: 137px; height: 191px; -webkit-background-size: 100% 100%; background-size: 100% 100%; position: absolute; top: 0; left: 0; }
@@ -1398,5 +1410,3 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 
 .site-footer .links-footer a { background: none; border: none; color: #231f20; font-size: 11px; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.2em; font-weight: 400; display: inline-block; position: relative; padding: 0 0 0 20px; }
 .site-footer .links-footer a:after { content: ''; position: absolute; top: 5px; left: 0; width: 6px; height: 5px; background: #c2b49c; }
-
-
