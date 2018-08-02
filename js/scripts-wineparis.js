@@ -219,7 +219,7 @@
 			$('header').removeClass('fixed')
 		}
 	}).on('load scroll', function() {
-		$('.socials').toggleClass('socials-fixed', $win.scrollTop() > 300)
+		$('.socials').toggleClass('socials-fixed', $win.scrollTop() > 305)
 		$('.socials--hidden').toggleClass('socials-visible', $win.scrollTop() > $win.outerHeight())
 
 
