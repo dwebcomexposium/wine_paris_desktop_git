@@ -854,7 +854,7 @@ body.exposer header .links-subheader { display: none; }
 .lang-switcher ul li a { background: none !important; color: #fff; text-decoration: none !important; padding: 0; position: relative; }
 .lang-switcher ul li a:after { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 26px; height: 26px; border-radius: 50%; border: 1px solid #fff; opacity: 0; visibility: hidden; -webkit-transition: opacity .4s, visibility .4s; -o-transition: opacity .4s, visibility .4s; transition: opacity .4s, visibility .4s; opacity: 0; visibility: hidden; }
 .lang-switcher ul li a > * { border: none; }
-.lang-switcher ul li a > abbr { border: none !important; }
+.lang-switcher ul li a > abbr { border: none !important; text-decoration: none; }
 .lang-switcher .is-active a:after { opacity: 1; visibility: visible; }
 
 /* ------------------------------------------------------------ *\
@@ -882,7 +882,8 @@ body.exposer header .links-subheader { display: none; }
 .socials .socials__link { color: #fff; font-size: 10px; font-weight: 900; text-transform: uppercase; margin-left: 19px; letter-spacing: 0.25em; }
 
 /*  Socials Alt  */
-.socials--alt { position: fixed; top: 50%; margin-top: -200px; right: 40px; z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; }
+.socials--alt { position: fixed; /*top: 50%; margin-top: -200px;*/ right: 40px; top: 450px;
+z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; }
 .socials--alt h6 { background: #231f20; color: #fff; display: block; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); transform-origin: bottom right; padding: 8px 15px; margin: 0 24px 29px 0; }
 
 .socials--alt h6:after { border-color: transparent transparent transparent #231f20; }
@@ -1410,3 +1411,5 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 
 .site-footer .links-footer a { background: none; border: none; color: #231f20; font-size: 11px; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.2em; font-weight: 400; display: inline-block; position: relative; padding: 0 0 0 20px; }
 .site-footer .links-footer a:after { content: ''; position: absolute; top: 5px; left: 0; width: 6px; height: 5px; background: #c2b49c; }
+
+
