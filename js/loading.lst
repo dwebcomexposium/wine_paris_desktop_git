@@ -6,5 +6,7 @@ vendor/masonry/dist/masonry.pkgd.min.js
 vendor/imagesloaded/imagesloaded.pkgd.min.js
 cookies-warning.min.js
 modules/*
-wb/*
+wb/youmax.min.js
+wb/jquery.countdown.js
+wb/jquery.carouFredSel-6.2.1.js
 scripts-wineparis.js
