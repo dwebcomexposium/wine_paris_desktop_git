@@ -179,7 +179,7 @@
                 channel: '',
                 youtube_playlist_videos: [{
                     name: 'Videos',
-                    url: 'https://www.youtube.com/playlist?list=PLXejX05KCwBGpkz7nYFWQT0_VS7MLuZUM',
+                    url: 'https://www.youtube.com/playlist?list=PLQMkMZb3Qgt_PLzky_20MgHBYtcj9UOWk',
                     selected: true
                 }],
                 
