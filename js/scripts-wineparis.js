@@ -88,9 +88,7 @@
 		$('.quicklinks.links-infos').addClass('animate')
         $('.partner.partenaires').addClass('animate')
         $('.pourquoi-exposer').addClass('animate')
-		
-        $('.list-articles .grid-la-list .gla-item').addClass('animate')
-        $('.pagination').addClass('animate')
+	    $('.pagination').addClass('animate')
         
 //        $('.article-intro').addClass('animate')
 //        $('.article-content').addClass('animate')
