@@ -2,6 +2,8 @@
 	var $win = $(window);
 	var $doc = $(document);
 	var scrolledY = 0;
+	var $wrappedText= $('.article-wrapper h4');
+	
 
 	//Animate Sections
 	var $animated = $('.animated');
@@ -145,6 +147,8 @@
 	$win.on('load', function() {
         $('body.exposer header.site-banner .quicklinks-navigation ul').clone().appendTo('body.exposer .breadcrumb-nav li:last-child')
         $('body.exposer header.site-banner .links-subheader').clone().appendTo('body.exposer #zone1')
+		
+		$wrappedText.wrapInner('<span></span>');
 
 
 		animateElements();
