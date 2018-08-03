@@ -1413,3 +1413,34 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 .site-footer .links-footer a:after { content: ''; position: absolute; top: 5px; left: 0; width: 6px; height: 5px; background: #c2b49c; }
 
 
+
+/* ------------------------------------------------------------ *\
+    Ajax search
+\* ------------------------------------------------------------ */
+.tt-dropdown-menu .typeahead-section-name {color: #231f20; padding-top: 15px; border-bottom: 0; }
+.tt-dropdown-menu {width:232px!important; margin-left: 0; z-index: 22; margin-top: 15px!important; box-shadow: 0px 0px 33.82px 4.18px rgba(0, 0, 0, 0.22); }
+.tt-dropdown-menu a {color: #231f20; font-weight: 300; text-decoration:none;}
+.tt-dropdown-menu span.tt-suggest-text {text-decoration: none; }
+.tt-dropdown-menu .tt-dropdown-contents { padding: 0 17px; }
+.tt-dropdown-menu .tt-text-intro {	display: none; }
+.tt-dropdown-menu strong.tt-highlight {font-weight: 700!important; color: #231f20;}
+.tt-suggestion a:focus strong.tt-highlight, .tt-suggestion a:hover strong.tt-highlight {color: #231f20;}
+.tt-suggestion a { text-decoration: none!important; }
+.tt-suggestion a:focus, .tt-suggestion a:hover { text-decoration: none; background: #f2f2f2; color: #231f20; }
+.tt-suggestion p { padding: 5px 0!important; }
+
+/* ------------------------------------------------------------ *\
+    Search page
+\* ------------------------------------------------------------ */
+
+/*.search-result { color: #0c0803; max-width: 1220px; display: block; margin: 50px auto 0;  }
+.search-result .sr-group-exponent div.sr-item-img { display: none; }
+.search-result h3 a:hover, .search-result h3 a { color: #161616; }
+.search-result img.la-item-img {margin-right: 0; width: 200px; }
+.search-result mark.sr-term {color: #ffed00;  }
+.search-result .gsf-submit-text {display: none; }
+.search-result small.sr-nb-result {font-size: 14px; letter-spacing: 1px; }
+.search-result .sr-group-exponent .sr-item-content {padding: 0; width: 100%; }
+.search-result .sr-item {margin: 20px 0; display: block; border-bottom: none; padding-top: 15px; }
+.search-result .global-search-form { margin: 0 0 35px 0;  }
+.search-result .sr-form {display: none; }*/
