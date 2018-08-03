@@ -1452,3 +1452,5 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 .search-result .sr-item {margin: 20px 0; display: block; border-bottom: none; padding-top: 15px; }
 .search-result .global-search-form { margin: 0 0 35px 0;  }
 .search-result .sr-form {display: none; }*/
+
+.at-publication  { display: none; }
