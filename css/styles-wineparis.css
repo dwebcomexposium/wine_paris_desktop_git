@@ -381,6 +381,9 @@ body.exposer header .links-subheader { display: none; }
 #youmax .youmax-pagination-button-wrapper.youmax-right-wrapper { display: none; }
 #youmax .youmax-pagination-button-wrapper.youmax-left-wrapper { display: none; }
 
+
+.mfp-wrap { z-index: 10001!important; }
+
 /* ------------------------------------------------------------ *\
     Animate Elements
 \* ------------------------------------------------------------ */
