@@ -92,7 +92,7 @@ body { min-width: 320px; font-family: 'Brandon Grotesque', sans-serif; color: #2
     Logo
 \* ------------------------------------------------------------ */
 
-/*.logo { display: inline-block; background: url(../wine_paris_desktop_git/images/logo.png) no-repeat 0 0; width: 193px; height: 270px;  }*/
+.logo { display: inline-block; background: url(../wine_paris_desktop_git/images/logo.png) no-repeat 0 0; width: 193px; height: 270px;  }
 .logo-w { display: inline-block; background: url(../wine_paris_desktop_git/images/logo-w.png) no-repeat 0 0; width: 99px; height: 69px;  }
 
 .logo-big { display: inline-block; background: url(../wine_paris_desktop_git/images/logo-big.png) no-repeat 0 0; width: 331px; height: 234px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
@@ -181,7 +181,6 @@ body.exposer header .links-subheader { display: none; }
 \* ------------------------------------------------------------ */
 
 .article-wrapper { width: 1170px; margin: auto;  }
-
 .article-title { position: relative; margin-top: 40px; }
 .article-title:after { content: ''; position: absolute; bottom: 100%; left: 50%; width: 960px; height: 40px; background: #fff; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); }
 .article-title .inside { position: relative; display: flex; justify-content: space-between;flex-direction: column; }
@@ -219,22 +218,21 @@ body.exposer header .links-subheader { display: none; }
 .article-content h3:after { content: ''; position: absolute; top: -11px; left: 0; width: 24px; height: 4px; background: #689598; }
 .article-content figure.fl { padding-right: 40px; margin: 0 50px 0 0; text-align: left; }
 
-.article-content h4 { padding: 6px 5px;  background: #214955; color: #fff; font-size: 14px; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.1em; text-transform: uppercase;  }
-.article-content a[name="eztoc_2_2_2_1"] +  h4  { max-width: 240px; text-align: center; margin: 12px auto 41px;  }
+.article-content h4 { display: flex; justify-content: center; align-items: center; }
+.article-content h4 span { position: relative; display: inline-block; vertical-align: middle; background: #214955; color: #fff; font-size: 14px; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; padding: 4px 15px; }
 
-.article-content h4 + figure { width: 743px; margin: auto;  }
-.article-content a[name="eztoc_2_2_3_1"] +  h4  { max-width: 300px; text-align: center; margin: 0 auto 36px;  }
+.article-content figure.center { margin: auto;  }
 
-.article-content .focus1 { width: 182px; background: #ef662f; line-height: 1; position: relative; margin-top: 22px; }
+.article-content .focus1 { background: #ef662f; line-height: 1; position: relative; margin-top: 22px; display: inline-block; }
 .article-content .focus1:after { content: ''; position: absolute; top: 0; left: 0; width: 0; height: 39px; background: #231f20; -webkit-transition: width .4s; -o-transition: width .4s; transition: width .4s; }
 .article-content .focus1:hover:after { width: 100%; }
 .article-content .focus1 a:after { display: none; }
 .article-content .focus1 a + a { display: none; }
-.article-content .focus1 a { font-family: 'Brandon Grotesque', sans-serif; position: relative; display: block; padding: 13px 17px 0; font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: #fff; z-index: 10;  }
-.article-content .focus1 a:before { content: ''; display: inline-block; background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; position: absolute; top: 15px; right: 20px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.article-content .focus1 a { font-family: 'Brandon Grotesque', sans-serif; position: relative; display: block; padding: 13px 17px 0; font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: #fff; z-index: 10; margin-right: 30px; }
+.article-content .focus1 a:before { content: ''; display: inline-block; background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; position: absolute; top: 15px; right: -12px; -webkit-background-size: 100% 100%; background-size: 100% 100%;  }
 
 
-.article-content .focus2 { margin-top: 21px; width: 185px; border: 1px solid #231f20; line-height: 1; position: relative;  }
+.article-content .focus2 { margin-top: 21px;  border: 1px solid #231f20; line-height: 1; position: relative; display: inline-block;  }
 .article-content .focus2:after { content: ''; position: absolute; top: 0; left: 0; width: 0; height: 35px; background: #231f20; -webkit-transition: width .4s; -o-transition: width .4s; transition: width .4s; }
 
 .article-content .focus2:hover:after { width: 100%; }
@@ -243,8 +241,8 @@ body.exposer header .links-subheader { display: none; }
 
 .article-content .focus2 a:after { display: none; }
 .article-content .focus2 a + a { display: none; }
-.article-content .focus2 a { font-family: 'Brandon Grotesque', sans-serif; position: relative; display: block; padding: 13px 17px 10px; font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: #231f20; z-index: 10; -webkit-transition: color .4s; -o-transition: color .4s; transition: color .4s;  }
-.article-content .focus2 a:before { content: ''; display: inline-block; background: url(images/ico-arrow-right.png) no-repeat 0 0; width: 18px; height: 9px; position: absolute; top: 15px; right: 20px; -webkit-background-size: 100% 100%; background-size: 100% 100%; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; }
+.article-content .focus2 a { font-family: 'Brandon Grotesque', sans-serif; position: relative; display: block; padding: 13px 17px 10px; font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: #231f20; z-index: 10; -webkit-transition: color .4s; -o-transition: color .4s; transition: color .4s; margin-right: 30px; }
+.article-content .focus2 a:before { content: ''; display: inline-block; background: url(images/ico-arrow-right.png) no-repeat 0 0; width: 18px; height: 9px; position: absolute; top: 15px; right: -12px; -webkit-background-size: 100% 100%; background-size: 100% 100%; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; }
 
 
 .article-content .style4 { margin: 26px 0 0;  }
@@ -279,10 +277,6 @@ body.exposer header .links-subheader { display: none; }
 
 .article-content .cl-item:nth-child(even) { border-left: none; }
 
-.article-content a[name="eztoc_5_1"] + h2 { margin-top: 40px; }
-
-
-
 
 /*  Article NAvigation  */
 .article-navigation { margin-bottom: 80px; }
@@ -290,19 +284,13 @@ body.exposer header .links-subheader { display: none; }
 .article-navigation ul { justify-content: center; padding: 0 140px;  }
 
 .article-navigation ul li a { height: 220px; background: #fff; border: 1px solid #000; text-align: left; display: flex; justify-content: center; -ms-align-items: center; align-items: center; position: relative; }
-/*.article-navigation ul li a:after { content: ''; position: absolute; top: 0; left: 0; width: 0; height: 100%; background: #fff; -webkit-transition: width .4s; -o-transition: width .4s; transition: width .4s; }*/
-/*.article-navigation ul li a:hover:after { width: 100%; }*/
-/*.article-navigation ul li a:hover { color: #000; }*/
-/*.article-navigation ul li a:hover .icon-short-arrow-left  { background-image: url(images/ico-arrow-big-dark.png); }*/
+
 
 .article-navigation ul .an-item-previous a  { background: #000; color: #fff; }
 .article-navigation ul .an-item-next a { background: #fff !important; }
 .article-navigation ul .an-item-next a span {color: #000 !important;  }
 .article-navigation ul .an-item-previous a:hover .icon { -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); }
 .article-navigation ul .an-item-next a:hover .icon { -webkit-transform: translateX(50%); -ms-transform: translateX(50%); -o-transform: translateX(50%); transform: translateX(50%); }
-/*.article-navigation ul .an-item-next a:after { background: #000; }*/
-/*.article-navigation ul .an-item-next a:hover { color: #fff; }*/
-/*.article-navigation ul .an-item-next a:hover .icon-short-arrow-right { background-image: url(images/ico-arrow-big-right.png); }*/
 
 .article-navigation .an-item-title { font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; font-size: 20px; line-height: 1.15; text-transform: uppercase; letter-spacing: 0.065em;  }
 .article-navigation .an-item-content { padding: 0 10px; position: relative; left: 20px; z-index: 10;  }
@@ -1113,6 +1101,7 @@ z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; }
     /*.site-banner .global-search-form { bottom: auto !important; top: 16px;  }*/
 	/*.site-banner .global-search-form:after { top: 23px !important; }*/
 	.js .site-banner .gsf-fields { margin-top: -34px !important; }
+	.site-banner .global-search-form i { position: relative; top: -15px; }
 }
 
 .site-banner .global-search-form:after { content: ''; position: absolute; top: -11px; left: -20px; width: 50px; height: 40px; background: #fff; pointer-events: none; opacity: 0; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
@@ -1428,6 +1417,7 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 
 .site-footer .links-footer a { background: none; border: none; color: #231f20; font-size: 11px; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.2em; font-weight: 400; display: inline-block; position: relative; padding: 0 0 0 20px; }
 .site-footer .links-footer a:after { content: ''; position: absolute; top: 5px; left: 0; width: 6px; height: 5px; background: #c2b49c; }
+
 
 /* ------------------------------------------------------------ *\
     Ajax search
