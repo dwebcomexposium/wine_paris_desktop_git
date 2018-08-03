@@ -90,8 +90,8 @@
         $('.list-articles .grid-la-list .gla-item').addClass('animate')
         $('.pagination').addClass('animate')
         
-        $('.article-intro').addClass('animate')
-        $('.article-content').addClass('animate')
+//        $('.article-intro').addClass('animate')
+//        $('.article-content').addClass('animate')
         $('.article-content .cl-item').addClass('animate')
         $('.article-navigation').addClass('animate')
 
@@ -219,7 +219,7 @@
 			$('header').removeClass('fixed')
 		}
 	}).on('load scroll', function() {
-		$('.socials').toggleClass('socials-fixed', $win.scrollTop() > 301)
+		$('.socials').toggleClass('socials-fixed', $win.scrollTop() > 300)
 		$('.socials--hidden').toggleClass('socials-visible', $win.scrollTop() > $win.outerHeight())
 
 
