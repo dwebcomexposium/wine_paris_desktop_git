@@ -79,6 +79,11 @@ body { min-width: 320px; font-family: 'Brandon Grotesque', sans-serif; color: #2
 *:after,
 *:before { box-sizing: border-box; }
 
+
+
+h1, .h1-like, h2, .h2-like, h3, .h3-like, h4, .h4-like, h5, .h5-like, h6, .h6-like { color: #231f20; }
+
+
 /* ------------------------------------------------------------ *\
     Shell
 \* ------------------------------------------------------------ */
@@ -92,10 +97,10 @@ body { min-width: 320px; font-family: 'Brandon Grotesque', sans-serif; color: #2
     Logo
 \* ------------------------------------------------------------ */
 
-.logo { display: inline-block; background: url(../wine_paris_desktop_git/images/logo.png) no-repeat 0 0; width: 193px; height: 270px;  }
+.logo { display: inline-block; background: url(../wine_paris_desktop_git/images/logo.png) no-repeat 0 0; width: 193px; height: 270px; }
 .logo-w { display: inline-block; background: url(../wine_paris_desktop_git/images/logo-w.png) no-repeat 0 0; width: 99px; height: 69px;  }
 
-.logo-big { display: inline-block; background: url(../wine_paris_desktop_git/images/logo-big.png) no-repeat 0 0; width: 331px; height: 234px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.logo-big { display: inline-block; background: url(../wine_paris_desktop_git/images/logo-big.png) no-repeat 0 0; width: 331px; height: 234px; -webkit-background-size: 100% 100%; background-size: 100% 100%;  }
 
 .logo1 { display: inline-block; background: url(../wine_paris_desktop_git/images/logo1.png) no-repeat 0 0; width: 147px; height: 24px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 .logo2 { display: inline-block; background: url(../wine_paris_desktop_git/images/logo21.png) no-repeat 0 0; width: 130px; height: 55px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
@@ -156,7 +161,7 @@ body.exposer header .links-subheader { display: none; }
 \* ------------------------------------------------------------ */
 
 
-.quicklinks.cta-badge { position: absolute; top: 136px; /*right: 50%; margin-right: -709px;*/ right: calc(2.5vw + 20px); }
+.quicklinks.cta-badge { position: absolute; top: 136px; right: calc(2.5vw + 20px); right: 41px; }
 .quicklinks.cta-badge:hover a { -webkit-transform: scale(1.01); -ms-transform: scale(1.01); -o-transform: scale(1.01); transform: scale(1.01); }
 .quicklinks.cta-badge .btn-primary { display: inline-block; background: #fff; border: none; width: 233px; position: relative; text-align: left; border-left: 72px solid #231f20; padding: 9px 8px 12px 27px; line-height: 1; transition: -webkit-transform .4s; transition: -ms-transform .4s; transition: -o-transform .4s; -webkit-transition: transform .4s; -o-transition: transform .4s; transition: transform .4s; backface-visibility: hidden; }
 .quicklinks.cta-badge .btn-primary:hover {}
@@ -1064,7 +1069,7 @@ z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; }
 .testimonial .testimonial__foot:after { content: ''; position: absolute; bottom: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_desktop_git/images/arrow-red-1.png) no-repeat 0 0; width: 39px; height: 11px;   }
 .testimonial .testimonial__foot h5 { color: #fff; font-weight: 400; letter-spacing: 0.05em; line-height: 1; margin-bottom: 5px; }
 .testimonial .testimonial__foot h5 strong { display: block; font-weight: 900; letter-spacing: 0.1em; margin-top: 8px; text-transform: uppercase; }
-.testimonial .testimonial__foot h6 { color: #fff; opacity: .5; font-weight: 400; font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; }
+.testimonial .testimonial__foot h6 { color: #fff; opacity: .5; font-weight: 700; font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; }
 
 .testimonial--orange .quote { color: #ef662f; }
 .testimonial--orange .testimonial__foot { background: #ef662f; }
@@ -1457,6 +1462,15 @@ body.partner .pl-item-group .pl-item {width: 200px; border: 0; box-shadow: 0 0 2
 body.partner .pl-item-group .pl-item img {max-width: 130px; }
 body.partner .pl-item-group .pl-item-title, body.partner .pl-item-group .pl-item-read-more  {display: none; }
 
+/* ------------------------------------------------------------ *\
+    Partner gallery
+\* ------------------------------------------------------------ */
+.block-page.partner-list .pg-item-group {display: flex; flex-wrap: wrap; justify-content: center; margin-top: 20px; }
+.block-page.partner-list .pg-item-group .pg-item {width: 200px; border: 0; box-shadow: 0 0 20px rgba(68, 68, 68, 0.15); text-align: center; margin: 10px 40px 30px 0; vertical-align: middle; height: 170px; }
+
+.block-page.partner-list .pg-item-group .pg-item img {max-width: 130px; }
+.block-page.partner-list .pg-item-group .pg-item-title, .block-page.partner-list .pg-item-group .pg-item-read-more  {display: none; }
+.block-page.partner-list .slider-item, .block-page.partner-list .pg-item-illust { display: flex; justify-content: center; align-items: center; margin: 0; padding: 0;* }
 
 
 /* ------------------------------------------------------------ *\
