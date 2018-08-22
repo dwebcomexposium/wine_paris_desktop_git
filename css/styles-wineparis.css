@@ -892,12 +892,12 @@ body.exposer header .links-subheader { display: none; }
 
 /*  Socials Alt  */
 .socials--alt { position: fixed; /*top: 50%; margin-top: -200px;*/ right: 40px; top: 450px;
-z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; }
+z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; pointer-events: none; }
 .socials--alt h6 { background: #231f20; color: #fff; display: block; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); transform-origin: bottom right; padding: 8px 15px; margin: 0 24px 29px 0; }
 
 .socials--alt h6:after { border-color: transparent transparent transparent #231f20; }
 .socials--alt ul { display: block; position: relative; left: 11px; }
-.socials--alt ul li { display: block; width: 35px; text-align: center; margin-left: auto;  }
+.socials--alt ul li { display: block; width: 35px; text-align: center; margin-left: auto; pointer-events: auto; }
 .socials--alt ul li + li { margin: 8px 0 0 auto;  }
 
 .socials--alt ul ul { left: auto !important; right: -10px; display: flex !important; justify-content: flex-start !important; }
@@ -906,7 +906,7 @@ z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; }
 .socials--alt ul ul li { width: initial !important; display: inline-block; flex: 0 0 50%; max-width: 50%; }
 .socials--alt ul ul li + li  { margin: 0; }
 
-.socials--alt .socials__link { color: #231f20; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); transform-origin: bottom right; display: inline-block; margin: 90px 13px 0 72px; }
+.socials--alt .socials__link { color: #231f20; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); transform-origin: bottom right; display: inline-block; margin: 90px 13px 0 72px; pointer-events: auto; }
 
 .socials--alt.socials--hidden { right: -40px; }
 .socials--alt.socials-visible { right: 40px; }
