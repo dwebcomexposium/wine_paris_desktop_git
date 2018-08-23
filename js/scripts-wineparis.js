@@ -147,7 +147,14 @@
 		var $exposerLink = $('body.exposer .breadcrumb-nav ul li:nth-child(2) > a');
 		var exposerLinkEnglish = 'EXHIBIT';
 		var $quicklinksClone = $('body.exposer header.site-banner .quicklinks-navigation ul').clone();
-        $('body.exposer .breadcrumb-nav li:last-child').html($quicklinksClone);
+		var has3rdLink = $('body.exposer .breadcrumb-nav li:nth-child(3)').length;
+
+		if (has3rdLink) {
+        	$('body.exposer .breadcrumb-nav li:nth-child(3)').html($quicklinksClone);
+		} else {
+			$('body.exposer .breadcrumb-nav ul').append($quicklinksClone);
+		}
+
         $('body.exposer header.site-banner .links-subheader').clone().appendTo('body.exposer #zone1')
 
         $exposerLink.attr('href', '/Exposer');
