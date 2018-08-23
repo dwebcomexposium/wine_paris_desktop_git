@@ -133,6 +133,7 @@ body:not(.front) .main-navigation .mn-menu-line > ul > li:first-child a { backgr
 body:not(.front) .main-navigation .mn-menu-line > ul > li:first-child a i { color: #fff; }
 
 /*  Body Exposer  */
+body.exposer .global-wrapper { padding-top: 258px; }
 body.exposer #main { position: relative; z-index: 10; }
 body.exposer .site-wrapper { background: none; }
 
