@@ -3,7 +3,7 @@
 	var $doc = $(document);
 	var scrolledY = 0;
 	var $wrappedText= $('.article-wrapper h4');
-	
+
 
 	//Animate Sections
 	var $animated = $('.animated');
@@ -17,10 +17,10 @@
 
 		if ( $animated.length === 0 ) {
 			return;
-		}			
+		}
 	};
 
-	
+
 	function animate(winST) {
 	$('.animate').each(function(){
 		var $this = $(this);
@@ -29,7 +29,7 @@
 			$this.addClass('animated');
 		} else if (winST + ($win.outerHeight() / 2) < $this.offset().top) {
 			$this.removeClass('animated');
-		}		
+		}
 		});
 	}
 
@@ -79,7 +79,7 @@
 		})
 
 
-			
+
 
 		// Class animation scroll
 		$('.edito-vin').addClass('animate')
@@ -89,7 +89,7 @@
         $('.partner.partenaires').addClass('animate')
         $('.pourquoi-exposer').addClass('animate')
 	    $('.pagination').addClass('animate')
-        
+
 //        $('.article-intro').addClass('animate')
 //        $('.article-content').addClass('animate')
         $('.article-content .cl-item').addClass('animate')
@@ -123,7 +123,7 @@
 				width: '100%',
 				circular: true,
 				infinite: true,
-				responsive: true,					
+				responsive: true,
 				auto: {
 					play: true,
 					timeoutDuration: 0
@@ -137,17 +137,26 @@
 				}
 			});
 		}
-		
+
 	});
 
     var headerContent = '<div class="header-content"><a href="#" class="logo logo--small"></a> <i class="ico-date"></i> <h3>Paris Expo<span>Porte de versailles</span></h3></div>'
 
 	$win.on('load', function() {
-        $('body.exposer header.site-banner .quicklinks-navigation ul').clone().appendTo('body.exposer .breadcrumb-nav li:last-child')
+		var lang = $('html').attr('lang');
+		var $exposerLink = $('body.exposer .breadcrumb-nav ul li:nth-child(2) > a');
+		var exposerLinkEnglish = 'EXHIBIT';
+		var $quicklinksClone = $('body.exposer header.site-banner .quicklinks-navigation ul').clone();
+        $('body.exposer .breadcrumb-nav li:last-child').html($quicklinksClone);
         $('body.exposer header.site-banner .links-subheader').clone().appendTo('body.exposer #zone1')
-		
+
+        $exposerLink.attr('href', '/Exposer');
+
 		$wrappedText.wrapInner('<span></span>');
 
+		if (lang == 'en') {
+			$exposerLink.find('span').text(exposerLinkEnglish);
+		}
 
 		animateElements();
 
@@ -172,7 +181,7 @@
        	}, 7000)
 
         if ( $('#youmax').length ) {
-                    
+
             // Youmax Slider
             $('#youmax').youmax({
                 apiKey: 'AIzaSyCNbIqgoVrq7IPkHr_NBMquEXAFu9zv474',
@@ -184,7 +193,7 @@
                     url: 'https://www.youtube.com/playlist?list=PLQMkMZb3Qgt_PLzky_20MgHBYtcj9UOWk',
                     selected: true
                 }],
-                
+
                 loadMode: 'paginate-sides',
                 loadButtonSize: 'small',
                 hideHeader: true,
