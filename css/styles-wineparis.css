@@ -685,7 +685,7 @@ body.gallery .article-content figure { float: left; padding: 0 20px 20px 0; }
 
 .evenements .gla-item { width: 100% !important; max-width: 100% !important; border: none; padding: 0 !important; margin: 0; box-shadow: none; }
 .evenements .gla-item a { display: block; position: relative; display: flex; text-decoration: none; }
-.evenements .gla-item a img { max-width: 370px; -webkit-transform: scale(1) !important; -ms-transform: scale(1) !important; -o-transform: scale(1) !important; transform: scale(1) !important; }
+.evenements .gla-item a img { width: 370px; -webkit-transform: scale(1) !important; -ms-transform: scale(1) !important; -o-transform: scale(1) !important; transform: scale(1) !important; }
 .evenements .gla-item h2 { margin: 0 0 1px !important; color: #fff !important; font-size: 25px !important; font-weight: 700; font-family: 'Brandon Grotesque', sans-serif; text-transform: uppercase; letter-spacing: 0.1em !important; line-height: 1.08 !important; }
 .evenements .gla-item h2 + span { font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 15px; line-height: 1.33; letter-spacing: 0.025em; margin-bottom: 20px; }
 
