@@ -238,7 +238,8 @@ body.exposer header .links-subheader { display: none; }
 .article-content h4 { display: flex; justify-content: center; align-items: center; }
 .article-content h4 span { position: relative; display: inline-block; vertical-align: middle; background: #214955; color: #fff; font-size: 14px; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; padding: 4px 15px; }
 
-.article-content h5 { color: #231f20; font-size: 15px; font-family: 'Brandon Grotesque', sans-serif; font-weight: 400; margin: 30px 0 10px; letter-spacing: 0.1em;  }
+.article-content h5 { color: #231f20; font-size: 16px;  margin: 30px 0 10px; letter-spacing: 1px  }
+
 
 .article-content figure.center { margin:25px auto;  }
 
