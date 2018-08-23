@@ -1,3 +1,4 @@
+
 /* ------------------------------------------------------------ *\
     Youmax
 \* ------------------------------------------------------------ */
@@ -110,9 +111,13 @@ h1, .h1-like, h2, .h2-like, h3, .h3-like, h4, .h4-like, h5, .h5-like, h6, .h6-li
     Helpers
 \* ------------------------------------------------------------ */
 
+
+
+
 /*  Body Links  */
-body.article_list .global-wrapper { padding-top: 228px; }
-body.article_list .global-wrapper:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 297px; background: url(../wine_paris_desktop_git/images/intro.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; }
+body:not(.front) .global-wrapper { padding-top: 228px; }
+body:not(.front) .global-wrapper:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 297px; background: url(../wine_paris_desktop_git/images/inner-background.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; }
+
 body.article_list #main { position: relative; z-index: 10; }
 body.article_list .site-wrapper { background: none; }
 
@@ -120,8 +125,7 @@ body.article_list .main-navigation .mn-menu-line > ul > li:first-child a { backg
 body.article_list .main-navigation .mn-menu-line > ul > li:first-child a i { color: #fff; }
 
 /*  Body Article  */
-body:not(.front) .global-wrapper { padding-top: 228px; }
-body:not(.front) .global-wrapper:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 297px; background: url(../wine_paris_desktop_git/images/intro.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; }
+
 body:not(.front) #main { position: relative; z-index: 10; }
 body:not(.front) .site-wrapper { background: none; }
 
@@ -129,8 +133,6 @@ body:not(.front) .main-navigation .mn-menu-line > ul > li:first-child a { backgr
 body:not(.front) .main-navigation .mn-menu-line > ul > li:first-child a i { color: #fff; }
 
 /*  Body Exposer  */
-body.exposer .global-wrapper { padding-top: 258px; }
-body.exposer .global-wrapper:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 297px; background: url(../wine_paris_desktop_git/images/intro.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; }
 body.exposer #main { position: relative; z-index: 10; }
 body.exposer .site-wrapper { background: none; }
 
@@ -196,7 +198,7 @@ body.exposer header .links-subheader { display: none; }
 .article-title .inside .at-content { position: relative; padding-bottom: 38px; }
 .article-title .inside .at-content:after { content: ''; position: absolute; top: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_desktop_git/images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; }
 
-.article-intro { margin: 40px auto 0; max-width: 800px; text-align: center; }
+.article-intro { margin: 40px auto; max-width: 800px; text-align: center; }
 .article-intro p { font-size: 19px; line-height: 1.58; font-family: 'Montserrat', sans-serif; font-weight: 400; }
 
 .article-intro + .article-content { margin-top: 14px; }
@@ -294,6 +296,11 @@ body.exposer header .links-subheader { display: none; }
 .article-content .cl-item .cl-item-content .cl-item-email a:before { background: #689598; }
 .article-content .cl-item .cl-item-content .cl-item-email a:after { display: none; }
 .article-content .cl-item:nth-child(even) { border-left: none; }
+.article-content .cl-item .cl-item-content .cl-item-phone span { padding-right: 7px; }
+
+
+body.gallery .article-content figure { float: left; padding: 0 20px 20px 0;
+}
 
 
 /*  Article NAvigation  */
@@ -301,7 +308,7 @@ body.exposer header .links-subheader { display: none; }
 .article-navigation img { display: none; }
 .article-navigation ul { justify-content: center; padding: 0 140px;  }
 
-.article-navigation ul li a { height: 220px; background: #fff; border: 1px solid #000; text-align: left; display: flex; justify-content: center; -ms-align-items: center; align-items: center; position: relative; }
+.article-navigation ul li a { height: 180px; background: #fff; border: 1px solid #000; text-align: left; display: flex; justify-content: center; -ms-align-items: center; align-items: center; position: relative; }
 
 
 .article-navigation ul .an-item-previous a  { background: #000; color: #fff; }
