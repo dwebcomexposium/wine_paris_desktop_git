@@ -149,8 +149,9 @@ body.exposer .breadcrumb-nav ul li:first-child { display: none; }
 body.exposer .breadcrumb-nav ul li:nth-child(2) > a { opacity: .5; }
 body.exposer .breadcrumb-nav ul li { display: inline-block; }
 body.exposer .breadcrumb-nav ul ul { padding: 0; }
-body.exposer .breadcrumb-nav ul ul li:first-child { display: inline-block; }
-body.exposer .breadcrumb-nav ul ul li:first-child:after { background: url(images/ico-angle-right1.png) no-repeat 0 0; width: 5px; height: 8px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+body.exposer .breadcrumb-nav ul ul li:first-child { display: inline-block; padding-left: 0; margin-left: 0; }
+/*body.exposer .breadcrumb-nav ul ul li:first-child:after { background: url(images/ico-angle-right1.png) no-repeat 0 0; width: 5px; height: 8px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }*/
+body.exposer .breadcrumb-nav ul ul li:first-child:after { display: none; }
 body.exposer .breadcrumb-nav ul ul li a { opacity: 1 !important; }
 body.exposer .breadcrumb-nav ul ul li { position: relative; margin-left: 15px; padding-left: 20px; }
 body.exposer .breadcrumb-nav ul ul li:after { content: ''; position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); width: 1px; height: 9px; background: #918f90; }
@@ -691,7 +692,7 @@ body.gallery .article-content figure { float: left; padding: 0 20px 20px 0; }
 
 .evenements .gla-item { width: 100% !important; max-width: 100% !important; border: none; padding: 0 !important; margin: 0; box-shadow: none; }
 .evenements .gla-item a { display: block; position: relative; display: flex; text-decoration: none; }
-.evenements .gla-item a img { width: 370px; -webkit-transform: scale(1) !important; -ms-transform: scale(1) !important; -o-transform: scale(1) !important; transform: scale(1) !important; }
+.evenements .gla-item a img { max-width: 370px; -webkit-transform: scale(1) !important; -ms-transform: scale(1) !important; -o-transform: scale(1) !important; transform: scale(1) !important; }
 .evenements .gla-item h2 { margin: 0 0 1px !important; color: #fff !important; font-size: 25px !important; font-weight: 700; font-family: 'Brandon Grotesque', sans-serif; text-transform: uppercase; letter-spacing: 0.1em !important; line-height: 1.08 !important; }
 .evenements .gla-item h2 + span { font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 15px; line-height: 1.33; letter-spacing: 0.025em; margin-bottom: 20px; }
 
