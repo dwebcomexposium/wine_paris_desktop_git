@@ -210,7 +210,8 @@ body.exposer header .links-subheader { display: none; }
 .article-wrapper .article-content a:hover:before { -ms-transform: translateY(-2px); transform: translateY(-2px); }
 
 .article-content h2 { clear: both; margin: 0 0 33px; border: none; text-align: center; font-weight: 700; font-size: 27px; text-transform: uppercase; font-family: 'Brandon Grotesque', sans-serif; color: #231f20; letter-spacing: 0.025em; padding: 0; margin: 0 0 35px;  }
-.article-content figure { border: none; padding: 0; margin: 0; text-align: right; }
+.article-content figure { border: none; padding: 0; margin: 0; /*text-align: right; */}
+.article-content figure.fr { text-align: right; }
 .article-content figure img { display: block;   }
 .article-content figure figcaption { display: none; }
 .article-content figure small { font-weight: 400; font-size: 11px; color: #231f20; opacity: .5; letter-spacing: 0.05em; margin: 10px 0 0; display: inline-block; margin-bottom: 22px; }
@@ -288,19 +289,18 @@ body.exposer header .links-subheader { display: none; }
 .article-content .cl-item .cl-item-title:after { content: ''; position: absolute; top: 0; left: 0; width: 34px; height: 6px; background: #689598; }
 .article-content .cl-item .cl-item-subtitle  { font-size: 14px; line-height: 1.79; text-transform: none; font-weight: 400; margin: 0 0 -3px; }
 
-.article-content .cl-item .cl-item-illust { width: 160px; height: 180px; padding: 0; display: block; position: absolute; top: 50%; left: 32px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
+.article-content .cl-item .cl-item-photo { width: 160px; height: 180px; padding: 0; display: block; position: absolute; top: 50%; left: 32px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
 
 .article-content .cl-item .cl-item-content { padding: 0; display: flex; flex-direction: column; }
 .article-content .cl-item .cl-item-content .cl-item-email { order: 1; margin-top: 10px; }
 .article-content .cl-item .cl-item-content .cl-item-email a { color: #689598; text-decoration: none; font-weight: 400; margin-left: 5px; }
 .article-content .cl-item .cl-item-content .cl-item-email a:before { background: #689598; }
 .article-content .cl-item .cl-item-content .cl-item-email a:after { display: none; }
-.article-content .cl-item:nth-child(even) { border-left: none; }
+.article-content .cl-content .cl-item:nth-child(even) { border-left: none; }
 .article-content .cl-item .cl-item-content .cl-item-phone span { padding-right: 7px; }
 
 
-body.gallery .article-content figure { float: left; padding: 0 20px 20px 0;
-}
+body.gallery .article-content figure { float: left; padding: 0 20px 20px 0; }
 
 
 /*  Article NAvigation  */
@@ -1387,7 +1387,9 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 .edito-vin .inside h2:before { top: auto; bottom: 0; }
 
 .edito-vin .inside p { font-family: 'Montserrat', sans-serif; text-align: justify; width: 33.33%; float: left; padding: 0 12px; font-size: 13px; line-height: 1.7;  }
-.edito-vin .inside p a { text-decoration: none; font-family: 'Brandon Grotesque', sans-serif; font-weight: 700; text-transform: uppercase; color: #231f20; letter-spacing: 0.1em; font-size: 10px; position: relative; padding-right: 22px;}
+.edito-vin .inside p.focus2 { margin-top: 18px; }
+
+.edito-vin .inside p a { text-decoration: none; font-family: 'Brandon Grotesque', sans-serif; font-weight: 700; text-transform: uppercase; color: #231f20; letter-spacing: 0.1em; font-size: 10px; position: relative; padding-right: 22px; }
 .edito-vin .inside p a:after { content: ''; position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(../wine_paris_desktop_git/images/ico-arrow-right.png) no-repeat 0 0; width: 14px; height: 7px; -webkit-background-size: 100% 100%; 
         background-size: 100% 100%; }
 
