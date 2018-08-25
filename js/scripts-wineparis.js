@@ -152,6 +152,7 @@
 		if (has3rdLink) {
         	$('body.exposer .breadcrumb-nav li:nth-child(3)').html($quicklinksClone);
 		} else {
+			$('body.exposer .breadcrumb-nav ul li:nth-child(2)').append('<i class="icon icon-short-arrow-right"></i>');
 			$('body.exposer .breadcrumb-nav ul').append($quicklinksClone);
 		}
 
