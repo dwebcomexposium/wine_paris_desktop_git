@@ -52,17 +52,17 @@
 			if ($('html').attr('lang') == 'fr') {
 			$('#countdown').countdown($('#countdown').data('time')).on('update.countdown', function(event) {
 				var $this = $(this).html(event.strftime(''
-						    + '<li><span>%D</span> <span>jours%!d</span></li>'
-						    + '<li><span>%H</span> <span>heures%!d</span></li>'
-						    + '<li><span>%M</span> <span>minutes%!d</span></li>'
+						    + '<li><span>%D</span> <span>jour%!d</span></li>'
+						    + '<li><span>%H</span> <span>heure%!d</span></li>'
+						    + '<li><span>%M</span> <span>minute%!d</span></li>'
 					))
 			});
 			} else {
 			$('#countdown').countdown($('#countdown').data('time')).on('update.countdown', function(event) {
 				var $this = $(this).html(event.strftime(''
-						    + '<li><span>%D</span> <span>days%!d</span></li>'
-						    + '<li><span>%H</span> <span>hours%!d</span></li>'
-						    + '<li><span>%M</span> <span>minutes%!d</span></li>'
+						    + '<li><span>%D</span> <span>day%!d</span></li>'
+						    + '<li><span>%H</span> <span>hour%!d</span></li>'
+						    + '<li><span>%M</span> <span>minute%!d</span></li>'
 					))
 			});
 			}
