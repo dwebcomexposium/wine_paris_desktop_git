@@ -4,6 +4,63 @@
 	var scrolledY = 0;
 	var $wrappedText= $('.article-wrapper h4');
 
+	 var sliderTimer;
+    var sliderNextTimer;
+
+	
+
+	
+
+	function initHomepageSlider() {
+	    var $slider = $('.observatoire .la-slider');
+	    var $clone = $slider.clone();
+	    var sliderArrow = '<a href="#" class="slider-next"/>';
+	    var sliderPaging = '<div class="slider-paging">';
+	    
+
+	    sliderPaging += '</div>';
+	    $slider.after($clone);
+	    var $slidesContainer = $clone.find('.slider-content');
+	    $clone.append(sliderArrow).append(sliderPaging);
+	    $slider.remove();
+	    $clone.find('.slider-paging a:first-child').addClass('active');
+	    
+	    $slidesContainer.carouFredSel({
+	        width: '100%',
+	        items: 1,
+	        swipe: {
+	            onTouch: true
+	        },
+	        auto: {
+	            play: true,
+	            timeoutDuration: 4000
+	        },
+	        scroll: {
+				duration: 500,
+				timeoutDuration: 2500
+			},
+	        infinite: true,
+	        pagination: ".observatoire .slider-paging",
+	        prev: {
+	             button  : ".observatoire .slider-btn-prev"
+            },
+            next: {
+                   button  : ".observatoire .slider-btn-next"
+            }
+	    });
+
+
+	    $('.slider-paging a').each(function(i) {
+	    	$(this).text('0' + (i+1))
+	    })
+	    
+	    
+	}
+
+	
+
+
+
 
 	//Animate Sections
 	var $animated = $('.animated');
@@ -155,6 +212,17 @@
     var headerContent = '<div class="header-content"><a href="#" class="logo logo--small"></a> <i class="ico-date"></i> <h3>Paris Expo<span>Porte de versailles</span></h3></div>'
 
 	$win.on('load', function() {
+		if ( $('.observatoire').length ) {
+			$('.observatoire .slider-item').each(function(i) {
+				$(this).addClass('color' + i)
+			})
+			
+			initHomepageSlider()
+		}
+
+		
+
+
 		var lang = $('html').attr('lang');
 		var $exposerLink = $('body.exposer .breadcrumb-nav ul li:nth-child(2) > a');
 		var exposerLinkEnglish = 'EXHIBIT';
