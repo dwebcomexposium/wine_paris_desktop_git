@@ -542,6 +542,7 @@ body.gallery .article-content figure { float: left; padding: 0 20px 20px 0; }
 .la-slider .slider-pagin-btn .btn { opacity: 1 !important; padding: 0; background: url(../wine_paris_desktop_git/images/sl-prev.png) no-repeat 0 0; width: 31px; height: 22px; -webkit-background-size: 100% 100%; background-size: 100% 100%; border: none;  }
 .la-slider .slider-pagin-btn .btn i { display: none; }
 
+
 .la-slider .slider-item:nth-child(2) .la-item-content { background: #f59331; }
 .la-slider .slider-item:nth-child(2) .la-item-content:after { background-image: url(images/arrow-11.png);  }
 .la-slider .slider-item:nth-child(2) .la-item-content .la-item-tag { color: #f59331; }
@@ -557,6 +558,24 @@ body.gallery .article-content figure { float: left; padding: 0 20px 20px 0; }
 .la-slider .slider-item:nth-child(5) .la-item-content { background: #bc2132; }
 .la-slider .slider-item:nth-child(5) .la-item-content:after { background-image: url(images/arrow-12.png);  }
 .la-slider .slider-item:nth-child(5) .la-item-content .la-item-tag { color: #bc2132; }
+
+
+
+.la-slider .slider-item.color0 .la-item-content { background: #f59331; }
+.la-slider .slider-item.color0 .la-item-content:after { background-image: url(images/arrow-11.png);  }
+.la-slider .slider-item.color0 .la-item-content .la-item-tag { color: #f59331; }
+
+.la-slider .slider-item.color1 .la-item-content { background: #ef662f; }
+.la-slider .slider-item.color1 .la-item-content:after { background-image: url(images/arrow-111.png);  }
+.la-slider .slider-item.color1 .la-item-content .la-item-tag { color: #ef662f; }
+
+.la-slider .slider-item.color2 .la-item-content { background: #689598; }
+.la-slider .slider-item.color2 .la-item-content:after { background-image: url(images/arrow-122.png);  }
+.la-slider .slider-item.color2 .la-item-content .la-item-tag { color: #689598; }
+
+.la-slider .slider-item.color3 .la-item-content { background: #bc2132; }
+.la-slider .slider-item.color3 .la-item-content:after { background-image: url(images/arrow-12.png);  }
+.la-slider .slider-item.color3 .la-item-content .la-item-tag { color: #bc2132; }
 
 
 
@@ -780,13 +799,15 @@ body.gallery .article-content figure { float: left; padding: 0 20px 20px 0; }
 
 .observatoire .slider-pagin-btn .slider-btn-next { margin: 0 -90px 0 0; left: auto; right: 0; background: url(../wine_paris_desktop_git/images/sl-next.png) no-repeat 0 0; width: 31px; height: 22px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
-.observatoire .slider-pagin-nb { position: absolute; bottom: 68px; left: 46px; z-index: 10; }
-.observatoire .slider-pagin-nb span { width: 26px; height: 26px; border-radius: 50%; border: 1px solid transparent; background: none; font-size: 12px; letter-spacing: 0.1em; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; display: inline-block; padding: 4px 0 0; text-align: center; }
+.observatoire .slider-paging { position: absolute; bottom: 18px; left: 46px; z-index: 10; }
+.observatoire .slider-paging a {text-decoration: none; width: 26px; height: 26px; border-radius: 50%; border: 1px solid transparent; background: none; font-size: 12px; letter-spacing: 0.1em; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; display: inline-block; padding: 4px 0 0; text-align: center; color: #fff;  }
 
-.observatoire .slider-pagin-nb span + span { margin-left: 13px; }
+.observatoire .slider-paging a + a { margin-left: 13px; }
 
-.observatoire .slider-pagin-nb .is-active { border-color: #fff; }
+.observatoire .slider-paging .selected { border-color: #fff; }
 .slider-play-btn { display: none !important;  }
+
+
 
 /* ------------------------------------------------------------ *\
     ql-list unstyled
@@ -1217,7 +1238,13 @@ header.site-banner.fixed .reserver-stand { display: none; }
 
 header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 
-.widget-my-selection {  }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	header.site-banner.fixed #cxpmClientAccountWidget .widget-my-selection { position: absolute; top: 20px; right: 16px; z-index: 10; }
+	header.site-banner.fixed #cxpmClientAccountWidget .widget-my-selection .number { margin-right: 0; }
+}
+
+
 .widget-my-selection i:before { display: none; }
 .widget-my-selection .cap-icon-shopping_basket { display: inline-block; background: url(images/ico-basket-1.png) no-repeat 0 0; width: 17px; height: 16px;  }
 
