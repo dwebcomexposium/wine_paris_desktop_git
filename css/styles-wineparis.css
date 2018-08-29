@@ -1273,7 +1273,18 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 #zone1 .links-right { position: absolute; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); z-index: 20; right: calc(2.5vw + 20px); margin-top: -2px; }
 
 #zone1 .links-right .btn-primary { background: #231f20; color: #fff; border: none; width: 141px; height: 141px; font-size: 16px; line-height: 1.06; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.075em; padding: 0; display: flex; justify-content: center; -ms-align-items: center; align-items: center; position: relative; z-index: 10; }
-#zone1 .links-right .btn-primary:after { content: ''; position: absolute; top: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); width: 0; height: 0; border-style: solid; border-width: 8px 14px 0 14px; border-color: #231f20 transparent transparent transparent;  }
+
+#zone1 .links-right .btn-primary:after { content: ''; position: absolute; background: url(images/triangle-down.png) no-repeat 0 0;
+    width: 23px;
+    height: 8px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 100%;
+    }
+    
 #zone1 .links-right .btn-primary span { transition: -webkit-transform .4s; transition: -ms-transform .4s; transition: -o-transform .4s; -webkit-transition: transform .4s; -o-transition: transform .4s; transition: transform .4s; }
 #zone1 .links-right li + li .btn-primary  { background: #fff; color: #231f20; text-transform: none; font-weight: 700; font-family: 'Montserrat', sans-serif; font-size: 15px; letter-spacing: 0; line-height: 1.07; z-index: 5; }
 #zone1 .links-right li + li .btn-primary:after { display: none; }
