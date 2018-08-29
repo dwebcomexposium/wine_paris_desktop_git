@@ -1423,11 +1423,11 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
     Edito Vin
 \* ------------------------------------------------------------ */
 
-.edito-vin { padding: 44px 0 1px;  }
+.edito-vin { padding: 64px 0 1px;  }
 .edito-vin .inside { position: relative; left: 12px; max-width: 1170px; margin: auto; padding-left: 229px; }
 .edito-vin .inside:after { content: ''; display: table; clear: both; }
 
-.edito-vin .inside h2 { margin: 0; padding: 28px 0; border: none; position: relative; font-size: 37px; line-height: 1.03; max-width: 235px; text-transform: uppercase; color: #231f20; font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; letter-spacing: 0.025em; position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); left: -12px; margin-top: -24px; }
+.edito-vin .inside h2 { margin: 0; padding: 28px 0; border: none; position: relative; font-size: 37px; line-height: 1.03; max-width: 235px; text-transform: uppercase; color: #231f20; font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; letter-spacing: 0.025em; position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); left: -12px; margin-top: -14px; }
 
 .edito-vin .inside h2:after,
 .edito-vin .inside h2:before { content: ''; position: absolute; top: 0; left: 0; width: 37px; height: 8px; background: #161616;  }
