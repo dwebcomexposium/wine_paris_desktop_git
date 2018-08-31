@@ -1541,7 +1541,7 @@ body.partner .pl-item-group .pl-item-title, body.partner .pl-item-group .pl-item
 .search-result h1, body.partner h1 { text-transform: uppercase; text-align: center; font-size: 33px; line-height: 1.15; letter-spacing: 0.025em; font-family: 'Brandon Grotesque', sans-serif; color: #231f20; width:960px; padding-top: 37px; background: #fff; display: block; margin: auto; border: 0; }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
 
 header.site-banner {  max-width: 100%; margin-left: -50%;  }
 .site-banner .inside {padding: 0 20px 0 0;  }
