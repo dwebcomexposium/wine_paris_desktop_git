@@ -1546,7 +1546,7 @@ body.partner .pl-item-group .pl-item-title, body.partner .pl-item-group .pl-item
 header.site-banner {  max-width: 100%; margin-left: -50%;  }
 .site-banner .inside {padding: 0 20px 0 0;  }
 .main-navigation { font-size: 12px;  }
-.main-navigation .mn-menu-line > ul > li > a { padding: 13px 15px 12px; }
+.main-navigation .mn-menu-line > ul > li > a { padding: 14px 15px 13px; }
 header.site-banner .header-content { padding-left: 125px; }
 header.site-banner .header-content .logo--small { width: 110px; height: 153px; }
 header.site-banner .header-content .ico-date { background-image: url(../wine_paris_desktop_git/images/ico-dates.png); width: 73px; height: 110px;   }
@@ -1564,9 +1564,6 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 .slider-alt .slider__slide { padding: 0 10px; }
 
 
-/*.shell { padding: 0 20px; margin: auto; }
-.intro-alt { position: relative; height: 100vh;  padding: 50px 0; color: #fff;  }
-.intro-alt .shell { max-width: 95%; }*/
 
 /*home*/
 .list-links { width: 260px; }
@@ -1601,6 +1598,8 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 .socials-def h4 {font-size: 19px; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 21px; }
 
 }
+
+
 
 /* ------------------------------------------------------------ *\
     div
