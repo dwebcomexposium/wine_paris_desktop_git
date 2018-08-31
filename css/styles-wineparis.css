@@ -175,7 +175,7 @@ body.exposer header .links-subheader { display: none; }
 .quicklinks.cta-badge .btn-primary .icon-badge { margin: 0; background: url(../wine_paris_desktop_git/images/ico-badget.png) no-repeat 0 0; width: 34px; height: 23px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 
-.quicklinks.reserver-stand { position: absolute; top: 136px; right: 50%; margin-right: -709px; }
+.quicklinks.reserver-stand { position: absolute; top: 136px; right: 40px; }
 .quicklinks.reserver-stand .btn-primary { background: #fff; border: none; width: 233px; position: relative; text-align: left; border-left: 72px solid #231f20; padding: 11px 8px 10px 27px; line-height: 1;  }
 .quicklinks.reserver-stand .btn-primary:after { content: ''; position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(../wine_paris_desktop_git/images/arrow-dark.png) no-repeat 0 0; width: 6px; height: 21px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 .quicklinks.reserver-stand .btn-primary i {  position: absolute; top: 50%; left: -53px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
