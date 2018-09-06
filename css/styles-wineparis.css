@@ -98,7 +98,7 @@ h1, .h1-like, h2, .h2-like, h3, .h3-like, h4, .h4-like, h5, .h5-like, h6, .h6-li
     Logo
 \* ------------------------------------------------------------ */
 
-.logo { display: inline-block; background: url(../wine_paris_desktop_git/images/logo.png) no-repeat 0 0; width: 193px; height: 270px; }
+.logo { display: inline-block; background: url(../wine_paris_desktop_git/images/logo-banner.png) no-repeat 0 0; width: 193px; height: 318px; }
 .logo-w { display: inline-block; background: url(../wine_paris_desktop_git/images/logo-w.png) no-repeat 0 0; width: 99px; height: 69px;  }
 
 .logo-big { display: inline-block; background: url(../wine_paris_desktop_git/images/logo-big.png) no-repeat 0 0; width: 331px; height: 234px; -webkit-background-size: 100% 100%; background-size: 100% 100%;  }
@@ -106,6 +106,8 @@ h1, .h1-like, h2, .h2-like, h3, .h3-like, h4, .h4-like, h5, .h5-like, h6, .h6-li
 .logo1 { display: inline-block; background: url(../wine_paris_desktop_git/images/logo1.png) no-repeat 0 0; width: 147px; height: 24px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 .logo2 { display: inline-block; background: url(../wine_paris_desktop_git/images/logo21.png) no-repeat 0 0; width: 130px; height: 55px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 .logo3 { display: inline-block; background: url(../wine_paris_desktop_git/images/logo-stockfood.png) no-repeat 0 0; width: 56px; height: 58px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+
+
 
 /* ------------------------------------------------------------ *\
     Helpers
@@ -1140,7 +1142,7 @@ z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; poin
 
 .site-banner { background: red; }
 
-.site-banner .inside { max-width: 1500px; padding: 0 20px;  }
+.site-banner .inside { max-width: 1500px; padding: 0 20px 0 0;  }
 .site-banner .gsf-trigger { height: initial; padding: 0; font-size: 15px; color: #fff; background: none !important; }
 .site-banner .global-search-form { right: 57px; margin-bottom: -1px; bottom: auto; top: 50px;  }
 
@@ -1179,14 +1181,14 @@ z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; poin
     Header
 \* ------------------------------------------------------------ */
 
-header.site-banner { background: none !important; position: absolute; top: 0; left: 50% !important; width: 100%; background: none; text-align: right; padding: 11px 0 !important; z-index: 100; -webkit-transition: .8s; -o-transition: .8s; transition: .8s; box-shadow: none !important; max-width: 95%; margin-left: -47.5%;  }
+header.site-banner { background: none !important; position: absolute; top: 0; left: 50% !important; width: 100%; background: none; text-align: right; padding: 11px 0 !important; z-index: 100; -webkit-transition: .8s; -o-transition: .8s; transition: .8s; box-shadow: none !important; max-width: 95%; margin-left: -47.9%;  }
 header.site-banner .inside { max-width: 100%; position: relative; left: 20px; }
 header.site-banner:after { content: ''; position: absolute; top: 40px; left: 50%; margin-left: -710px; background: url(images/logo.png) no-repeat 0 0; width: 103px; height: 144px; -webkit-background-size: 100% 100%; background-size: 100% 100%; opacity: 0; visibility: hidden; -webkit-transition: opacity .4s, visibility .4s; -o-transition: opacity .4s, visibility .4s; transition: opacity .4s, visibility .4s; box-shadow: 0 0 20px 0 rgba(0, 0, 0, .6); display: none;  }
 
-header.site-banner .header-content { position: absolute; top: 39px; /*left: 77px;*/ padding-left: 167px; text-align: left; }
+header.site-banner .header-content { position: absolute; top: 25px; /*left: 77px;*/ padding-left: 142px; text-align: left; }
 header.site-banner .header-content h3 { margin: 8px 0 0; color: #fff; font-weight: 900; font-size: 18px; letter-spacing: 0.075em; text-align: left; text-transform: uppercase; line-height: 1; }
 header.site-banner .header-content h3 span { display: block; font-size: 11px; letter-spacing: 0.11em; }
-header.site-banner .header-content .logo--small { width: 137px; height: 191px; -webkit-background-size: 100% 100%; background-size: 100% 100%; position: absolute; top: 0; left: 0; }
+header.site-banner .header-content .logo--small { width: 121px; height: 200px; -webkit-background-size: 100% 100%; background-size: 100% 100%; position: absolute; top: 0; left: 0; }
 header.site-banner .header-content .ico-date { background-image: url(../wine_paris_desktop_git/images/ico-dates.png); width: 73px; height: 110px;   }
 
 
@@ -1255,9 +1257,9 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 
 .fixed-header .intro-alt .logo { left: -20% !important; }
 
-.fixed-logo .intro-alt .logo { position: fixed !important; top: 40px !important; left: 4% !important; width: 103px; height: 144px; -webkit-background-size: 100% 100%; background-size: 100% 100%; box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2);   }
+.fixed-logo .intro-alt .logo { position: fixed !important; top: 40px !important; left: 4% !important; width: 100px; height: 165px; -webkit-background-size: 100% 100%; background-size: 100% 100%; background-image: url(../wine_paris_desktop_git/images/logo-banner-sticky.png); }
 
-.fixed-logo .logo--small { position: fixed !important; top: 40px !important; left: 4% !important; width: 103px !important; height: 144px !important; -webkit-background-size: 100% 100% !important; background-size: 100% 100% !important; box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2); }
+.fixed-logo .logo--small { position: fixed !important; top: 40px !important; left: 4% !important; width: 100px !important; height: 165px !important; -webkit-background-size: 100% 100% !important; background-size: 100% 100% !important; background-image: url(../wine_paris_desktop_git/images/logo-banner-sticky.png);}
 
 
 .intro-alt .logo { transition: margin .6s, left .6s; }
@@ -1342,7 +1344,7 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
      -o-transition-delay: 1.2s;
         transition-delay: 1.2s;  }
 
-.intro-alt .intro__content { padding-top: 270px; }
+.intro-alt .intro__content { padding-top: 320px; }
 .intro-alt .intro__content h5 { margin: 25px 0 0;  }
 .intro-alt .intro__content .dates { margin: 37px 0 0;  }
 .intro-alt .intro__content .logo { position: absolute; top: 0; left: 4%; }
@@ -1547,8 +1549,8 @@ header.site-banner {  max-width: 100%; margin-left: -50%;  }
 .site-banner .inside {padding: 0 20px 0 0;  }
 .main-navigation { font-size: 12px;  }
 .main-navigation .mn-menu-line > ul > li > a { padding: 14px 15px 13px; }
-header.site-banner .header-content { padding-left: 125px; }
-header.site-banner .header-content .logo--small { width: 110px; height: 153px; }
+header.site-banner .header-content { padding-left: 112px; }
+header.site-banner .header-content .logo--small { width: 93px; height: 154px; }
 header.site-banner .header-content .ico-date { background-image: url(../wine_paris_desktop_git/images/ico-dates.png); width: 73px; height: 110px;   }
 
 .socials--alt { display: none; }
@@ -1599,7 +1601,24 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 
 }
 
+@media (max-height: 830px) {
 
+	.intro-alt .intro__content .dates { margin: 20px 0 0;  }
+	.intro-alt h3 { margin: 20px 0 0;  font-size: 24px; 	}
+	.intro-alt .intro__foot { padding: 20px 0 20px;  }
+	.intro-alt h3 span { font-size: 17px;  }		
+}
+
+@media (max-height: 770px) {
+	.intro-alt .intro__foot { padding: 20px 0 15px;  }
+	.intro-alt h3 { font-size: 20px;   }
+	.intro-alt h3 span { font-size: 14px;  }	
+}
+
+@media (max-height: 744px) {
+	.intro-alt .socials {display: none;  }
+	.intro-alt .intro__btn { position: absolute; bottom: 28px; }
+}
 
 /* ------------------------------------------------------------ *\
     div
