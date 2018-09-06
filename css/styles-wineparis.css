@@ -1324,7 +1324,7 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 .intro-alt { position: relative; height: 100vh;  padding: 50px 0; color: #fff;  }
 .intro-alt .shell { max-width: 95%; }
 
-.intro-alt h5 { color: #fff; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 17px; line-height: 1.29; letter-spacing: 0.025em; }
+.intro-alt h5, .intro-alt h1 { color: #fff; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 17px; line-height: 1.29; letter-spacing: 0.025em; border: 0; }
 .intro-alt h3 { font-size: 27px; letter-spacing: 0.075em; font-weight: 900; color: #fff; text-transform: uppercase; line-height: 1; margin: 39px 0 0;  }
 .intro-alt h3 span { font-size: 17px; letter-spacing: 0.125em; display: block; margin-top: 3px;  }
 
@@ -1345,7 +1345,7 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
         transition-delay: 1.2s;  }
 
 .intro-alt .intro__content { padding-top: 320px; }
-.intro-alt .intro__content h5 { margin: 25px 0 0;  }
+.intro-alt .intro__content h5, .intro-alt .intro__content h1 { margin: 25px 0 0;  }
 .intro-alt .intro__content .dates { margin: 37px 0 0;  }
 .intro-alt .intro__content .logo { position: absolute; top: 0; left: 4%; }
 
@@ -1601,6 +1601,7 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 
 }
 
+
 @media (max-height: 830px) {
 
 	.intro-alt .intro__content .dates { margin: 20px 0 0;  }
@@ -1619,6 +1620,8 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 	.intro-alt .socials {display: none;  }
 	.intro-alt .intro__btn { position: absolute; bottom: 28px; }
 }
+
+
 
 /* ------------------------------------------------------------ *\
     div
