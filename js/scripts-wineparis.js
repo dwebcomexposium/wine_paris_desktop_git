@@ -176,7 +176,7 @@
 				swipe: true,
 				auto: {
 					play: true,
-					timeoutDuration: 7000
+					timeoutDuration: 14000
 				},
 	            prev: {
 	                   button  : "#prev"
