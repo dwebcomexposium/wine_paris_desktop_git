@@ -228,7 +228,7 @@ body.exposer header .links-subheader { display: none; }
 
 
 .article-content p { letter-spacing: 0.05em; }
-.article-content p:after { content: ''; display: table; clear: both;  }
+/*.article-content p:after { content: ''; display: table; clear: both;  }*/
 
 .article-content blockquote  { margin: 50px 0; padding: 74px 0 0; background: none; color: #bc2131; font-family: 'Brandon Grotesque', sans-serif; font-weight: 400; font-size: 25px; line-height: 1.28; text-transform: uppercase; letter-spacing: 0.15em; text-align: center; position: relative; }
 .article-content blockquote:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/ico-arrow-red.png) no-repeat 0 0; width: 18px; height: 28px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
@@ -239,7 +239,7 @@ body.exposer header .links-subheader { display: none; }
 .article-content h3:after, .search-result h2:after, body.partner h2:after { content: ''; position: absolute; top: -11px; left: 0; width: 24px; height: 4px; background: #689598;  }
 .article-content figure.fl { padding-right: 20px; margin: 0 20px 0 0; text-align: left; }
 
-.article-content h4 { display: flex; justify-content: center; align-items: center; }
+.article-content h4 { display: flex; justify-content: center; align-items: center; clear: both; }
 .article-content h4 span { position: relative; display: inline-block; vertical-align: middle; background: #214955; color: #fff; font-size: 14px; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; padding: 4px 15px; }
 
 .article-content h5 { color: #231f20; font-size: 16px;  margin: 30px 0 10px; letter-spacing: 1px  }
