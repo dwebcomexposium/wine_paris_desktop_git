@@ -918,8 +918,9 @@ body.gallery .article-content figure { float: left; padding: 0 20px 20px 0; }
 \* ------------------------------------------------------------ */
 
 
-.socials h6 { color: #231f20; background: #fff; font-weight: 900; text-transform: uppercase; display: inline-block; font-size: 12px; letter-spacing: 0.2em; padding: 8px 16px; position: relative; margin: 0 24px 0 0;  }
-.socials h6:after { content: ''; position: absolute; top: 50%; left: 100%; width: 0; height: 0; border-style: solid; border-width: 9px 0 9px 7px; border-color: transparent transparent transparent #ffffff; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
+.socials h6 { color: #231f20; background: #fff; font-weight: 900; text-transform: uppercase; display: inline-block; font-size: 12px; letter-spacing: 0.2em; padding: 8px 16px; position: relative; margin: 0 24px 0 0; height: 35px; }
+.socials h6:after { content: ''; position: absolute; top: 50%; left: 100%; width: 0; height: 0; border-style: solid; border-width: 7px 0 7px 5px; border-color: transparent transparent transparent #ffffff; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
+
 .socials ul { list-style: none; display: inline-block; vertical-align: middle; padding: 0; margin: 0; }
 .socials ul li { display: inline-block; position: relative; }
 .socials ul li + li { margin-left: 23px; }
@@ -1629,3 +1630,7 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
     div
 \* ------------------------------------------------------------ */
 .at-publication, .article-wrapper .at-theme  { display: none; }
+.socials h5 { color: #fff; border: 1px solid #fff;
+; font-weight: 400; text-transform: uppercase; display: inline-block; font-size: 12px; letter-spacing: 0.2em; padding: 8px 16px; position: relative; margin: 0 24px 0 0; margin-left: -30px; height: 35px; margin-right: 18px;
+}
+
