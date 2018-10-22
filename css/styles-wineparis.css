@@ -290,6 +290,15 @@ body.exposer header .links-subheader { display: none; }
 .article-content ul ul li:before { width: 6px; height: 1px; background: #66c0bc; top: 9px; }
 
 
+/*flexcol*/
+.article-content ul.flexcol { display: flex; justify-content: space-evenly; }
+.article-content ul.flexcol li { padding-left: 0; position: relative; width: 480px; padding-right: 15px;}
+.article-content ul.flexcol li + li {  padding-right: 0; padding-left: 15px; }
+.article-content ul.flexcol li:before { background: none; display: none; }
+.article-content ul.flexcol li { margin: 0; }
+
+
+
 .article-content .cl-content { display: flex; justify-content: center; flex-wrap: wrap; margin: 0 -105px; padding-top: 6px; }
 
 .article-content .cl-item { display: block; border: 1px solid #231f20; flex: 0 0 50%; margin: 0; padding: 0; margin-top: -1px; position: relative; padding: 30px 0px 20px 237px; min-height: 220px;
