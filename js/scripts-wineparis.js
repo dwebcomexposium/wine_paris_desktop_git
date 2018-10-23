@@ -267,9 +267,14 @@
        		}
 
        	}, 7000)
+	   	
+	   	
+
 
         if ( $('#youmax').length ) {
-
+			
+			if ($('html').attr('lang') == 'fr') {
+						
             // Youmax Slider
             $('#youmax').youmax({
                 apiKey: 'AIzaSyCNbIqgoVrq7IPkHr_NBMquEXAFu9zv474',
@@ -278,7 +283,7 @@
                 channel: '',
                 youtube_playlist_videos: [{
                     name: 'Videos',
-                    url: 'https://www.youtube.com/playlist?list=PLQMkMZb3Qgt_PLzky_20MgHBYtcj9UOWk',
+                    url: 'https://www.youtube.com/playlist?list=PLuy3B88HHXNlpB7NkVlN6F12mhs73CQam',
                     selected: true
                 }],
 
@@ -295,7 +300,41 @@
                 fourColumnThumbnailLeftRightMargin: '0',
                 videoProtocol: 'https:'
             });
+			
+			} else {
+			 $('#youmax').youmax({
+                apiKey: 'AIzaSyCNbIqgoVrq7IPkHr_NBMquEXAFu9zv474',
+                vimeoAccessToken: '',
+                clientId: '438137961980-vlefbf8sgps4r5fqon9u92m93n0hc1pi.apps.googleusercontent.com',
+                channel: '',
+                youtube_playlist_videos: [{
+                    name: 'Videos',
+                    url: 'https://www.youtube.com/playlist?list=PLuy3B88HHXNkP3r5rO186govsS33bPMtX',
+                    selected: true
+                }],
+
+                loadMode: 'paginate-sides',
+                loadButtonSize: 'small',
+                hideHeader: true,
+                hideNavigation: true,
+                hideComments: true,
+                maxResults: 3,
+                tabStyle: 'wire',
+                youmaxBackgroundColor: '#ffffff',
+                maxContainerWidth: 1170,
+                fourColumnThumbnailWidth: '33.33%',
+                fourColumnThumbnailLeftRightMargin: '0',
+                videoProtocol: 'https:'
+            });
+			
+			}
+			
+			
         };
+		
+		
+		
+		
 
 
 
