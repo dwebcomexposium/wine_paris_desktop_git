@@ -404,7 +404,9 @@ body.gallery .article-content figure { float: left; padding: 0 20px 20px 0; }
 #youmax #tiles li:nth-child(3) p:after { background: #f59331; }
 
 #youmax .youmax-duration { font-size: 14px; line-height: 1.5; color: #fff; bottom: 96px; right: 10px; padding: 0 8px; background-color: rgba(0,0,0,.5); border-radius: 0; }
-#youmax .youmax-play-overlay { display: block !important; }
+#youmax .youmax-play-overlay { display: block !important; background-color: rgba(0,0,0,.15); }
+/*#youmax .youmax-thumbnail-image-wrapper:hover .youmax-play-overlay { background-color: rgba(0,0,0,.05); }*/
+
 
 #youmax .youmax-play-icon-holder { width: 60px; height: 60px; border-width: 4px; border-color: rgba(255,255,255,.6); border-radius: 50%; }
 #youmax .youmax-play-icon-holder:before { content: ''; width: 0; height: 0; display: block; position: absolute; top: 50%; left: 50%; border: 11px solid transparent; border-left: 20px solid rgba(255,255,255,.6); margin: -10px 0 0 -7px; }
@@ -1651,4 +1653,3 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 .socials h5 { color: #fff; border: 1px solid #fff;
 ; font-weight: 400; text-transform: uppercase; display: inline-block; font-size: 12px; letter-spacing: 0.2em; padding: 8px 16px; position: relative; margin: 0 24px 0 0; margin-left: -30px; height: 35px; margin-right: 18px;
 }
-
