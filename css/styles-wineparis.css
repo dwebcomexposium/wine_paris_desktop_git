@@ -1121,38 +1121,38 @@ z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; poin
     Testimonial
 \* ------------------------------------------------------------ */
 
-
+.testimonial { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
 .testimonial p { font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 1.67; letter-spacing: 0.06em; margin: 0; }
 
 .testimonial .quote { font-size: 70px; color: #bc2131; font-family: 'Brandon Grotesque', sans-serif; font-weight: 700; font-style: normal; line-height: 1; position: absolute; top: 0; left: 0;  }
 
-.testimonial .testimonial__content { position: relative; padding: 43px 30px 20px; min-height: 346px; }
+.testimonial .testimonial__content { position: relative; padding: 43px 30px 20px; min-height: 346px; margin-top: 20px; }
 
 .testimonial .testimonial__foot { background: #bc2131; color: #fff; position: relative; text-align: center; padding: 31px 10px 14px; }
-.testimonial .testimonial__foot:after { content: ''; position: absolute; bottom: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_desktop_git/images/arrow-red-1.png) no-repeat 0 0; width: 39px; height: 11px;   }
+.testimonial .testimonial__foot:after { content: ''; position: absolute; top: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_desktop_git/images/arrow-d-red-1.png) no-repeat 0 0; width: 39px; height: 11px;   }
 .testimonial .testimonial__foot h5 { color: #fff; font-weight: 400; letter-spacing: 0.05em; line-height: 1; margin-bottom: 5px; }
 .testimonial .testimonial__foot h5 strong { display: block; font-weight: 900; letter-spacing: 0.1em; margin-top: 8px; text-transform: uppercase; }
 .testimonial .testimonial__foot h6 { color: #fff; opacity: .5; font-weight: 700; font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; }
 
 .testimonial--orange .quote { color: #ef662f; }
 .testimonial--orange .testimonial__foot { background: #ef662f; }
-.testimonial--orange .testimonial__foot:after { background-image: url(../wine_paris_desktop_git/images/arrow-orange-1.png); }
+.testimonial--orange .testimonial__foot:after { background-image: url(../wine_paris_desktop_git/images/arrow-d-orange-1.png); }
 
-.testimonial--blue .quote { color: #ef662f; }
+.testimonial--blue .quote { color: #689598; }
 .testimonial--blue .testimonial__foot  { background: #689598; }
-.testimonial--blue .testimonial__foot:after { background-image: url(../wine_paris_desktop_git/images/arrow-green-1.png); }
+.testimonial--blue .testimonial__foot:after { background-image: url(../wine_paris_desktop_git/images/arrow-d-green-1.png); }
 
 .testimonial--blue-dark .quote { color: #214955; }
 .testimonial--blue-dark .testimonial__foot  { background: #214955; }
-.testimonial--blue-dark .testimonial__foot:after { background-image: url(../wine_paris_desktop_git/images/arrow-blue-11.png); }
+.testimonial--blue-dark .testimonial__foot:after { background-image: url(../wine_paris_desktop_git/images/arrow-d-blue-11.png); }
 
 .testimonial--yellow .quote { color: #f59331; }
 .testimonial--yellow .testimonial__foot  { background: #f59331; }
-.testimonial--yellow .testimonial__foot:after { background-image: url(../wine_paris_desktop_git/images/arrow-yellow-1.png); }
+.testimonial--yellow .testimonial__foot:after { background-image: url(../wine_paris_desktop_git/images/arrow-d-yellow-1.png); }
 
 .testimonial--gray .quote { color: #9cb4be; }
 .testimonial--gray .testimonial__foot  { background: #9cb4be; }
-.testimonial--gray .testimonial__foot:after { background-image: url(../wine_paris_desktop_git/images/arrow-gray-1.png); }
+.testimonial--gray .testimonial__foot:after { background-image: url(../wine_paris_desktop_git/images/arrow-d-gray-1.png); }
 
 /* ------------------------------------------------------------ *\
     Header
@@ -1653,3 +1653,4 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 .socials h5 { color: #fff; border: 1px solid #fff;
 ; font-weight: 400; text-transform: uppercase; display: inline-block; font-size: 12px; letter-spacing: 0.2em; padding: 8px 16px; position: relative; margin: 0 24px 0 0; margin-left: -30px; height: 35px; margin-right: 18px;
 }
+
