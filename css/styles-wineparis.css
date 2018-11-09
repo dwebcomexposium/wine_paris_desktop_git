@@ -977,7 +977,7 @@ z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; poin
     Secials Def
 \* ------------------------------------------------------------ */
 
-.socials-def { text-align: center; padding-top: 54px; }
+.socials-def { text-align: center; padding-top: 54px; width: 390px; }
 .socials-def h4 { font-weight: 400; font-size: 21px; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 21px; }
 .socials-def h4 a { text-decoration: none; color: #231f20; }
 .socials-def ul { list-style: none; margin: 0; padding: 0; }
@@ -1435,8 +1435,8 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 .section-socials .section__title { color: #231f20; font-size: 40px; font-weight: 400; font-family: 'Brandon Grotesque', sans-serif; text-transform: uppercase; letter-spacing: 0.05em; border: none; margin-bottom: 19px; padding: 0; position: relative; padding: 100px 0 0;  }
 .section-socials .section__title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_desktop_git/images/ico-pin.png) no-repeat 0 0; width: 31px; height: 48px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
-.section-socials .section__body { display: flex; justify-content: space-between; align-items: flex-start; text-align: center; }
-.section-socials .section__body .logo-big { display: block; margin-bottom: 30px; }
+.section-socials .section__body { display: flex; justify-content: center; align-items: flex-start; text-align: center; }
+.section-socials .section__body .logo-big { display: block;  margin: 0 auto 30px; }
 
 
 
