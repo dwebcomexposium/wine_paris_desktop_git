@@ -1,3 +1,5 @@
+
+
 /* ------------------------------------------------------------ *\
     Youmax
 \* ------------------------------------------------------------ */
@@ -1654,11 +1656,11 @@ body.catalogue #zone3 { position: relative; right: 0; top:0; z-index: 999; float
 body.catalogue #zone3.top { top: 0px; }
 body.catalogue #zone3 .catal-nav-affix { display: none; }
 body.catalogue .edito.mod-catal .inside {padding: 0;}
-.catalogue .layout-2-col {width: 100%; margin: auto;  padding: 0 40px 0; width: 100%; background: #fff; }
-.catalogue #zone2 {/*width: 740px; float: left;*/ }
+.catalogue .layout-2-col, .page-events .layout-2-col {width: 100%; margin: auto;  padding: 0 40px 0; width: 100%; background: #fff; }
+.catalogue #zone2 {width: 100%; }
 
 .mod-catal a { color : #231f20; }
-.mod-catal .catal-ex-item-title a{color:#231f20}
+.mod-catal .catal-ex-item-title a {color:#231f20}
 .mod-catal a:hover { color : #231f20; text-decoration: underline; }
 .mod-catal .catal-ex-item,
 .mod-catal .catal-prd-item { border: 0; margin:10px 0 35px 0; padding : 40px 0 0 0; border-top: 1px solid #f7f9fb; }
@@ -1670,7 +1672,7 @@ body.catalogue .edito.mod-catal .inside {padding: 0;}
 .mod-catal .catal-ex-item-group-title,
 .mod-catal .catal-prd-item-group-title { border : 0 none; margin : 0; }
 .mod-catal .catal-ex-item-title,
-.mod-catal .catal-prd-item-title { color: #231f20; font-size : 35px; font-weight : 400; text-transform : uppercase; }
+.mod-catal .catal-prd-item-title { color: #231f20; font-size : 27px; font-family: 'Brandon Grotesque', sans-serif; font-weight : 900; text-transform : uppercase; }
 .mod-catal .catal-ex-item-title a,231f20
 .mod-catal .catal-prd-item-title a { color: #231f20; }
 .mod-catal .catal-ex-item-title a:focus,
@@ -1788,7 +1790,7 @@ body:not(.front) .mod-catal .catal-prd-item-img, body:not(.front) .mod-catal .ca
 .mod-catal .catal-ed-brands .catal-ed-brands-link:active .catal-ed-brands-img,
 .mod-catal .catal-ed-brands .catal-ed-brands-link:focus .catal-ed-brands-img,
 .mod-catal .catal-ed-brands .catal-ed-brands-link:hover .catal-ed-brands-img { opacity : .9; }
-.mod-catal.catal-nav-ex { border-bottom : 1px  #F7F9FE; margin: 10px 0;  }
+.mod-catal.catal-nav-ex { border-bottom : 1px  #F7F9FE; margin: 30px 0 0;  }
 
 
 .mod-catal.catal-nav-ex .catal-nav-ex-sep { border-left : 1px dotted #b2b2b2; }
@@ -1932,12 +1934,12 @@ a.btn-primary.btn-medium {float: right; }
 .article-title .inside .at-main-title { text-transform: uppercase; text-align: center; font-size: 33px; line-height: 1.15; letter-spacing: 0.025em; font-family: 'Brandon Grotesque', sans-serif; color: #231f20; padding: 0 100px; }
 
 .mod-catal .esf-form-zone { border: 6px solid #f0f0f0; border-radius : 0; margin-top : 0; padding : 40px; background: #fff}
-.mod-catal .esf-intro-title { color : #231f20; font-size : 22px; font-weight : 400; text-transform: uppercase; }
+.mod-catal .esf-intro-title { color : #231f20; font-size : 22px; font-weight : 400; text-transform: uppercase; font-family: 'Brandon Grotesque', sans-serif; }
 .mod-catal .esf-search-line .form-select { border-radius : 0; }
 .mod-catal .esf-search-line .form-select select { padding-bottom : 7px; padding-top : 8px; }
 .mod-catal .esf-search-line .form-select+#esf_simple_search { border-radius : 0; width: 330px; }
 .mod-catal .esf-search-line #esf_simple_search { border : 1px solid #b9b9b9; border-right : 0 none; font-size : 14px; margin-right : 0; padding-bottom : 7px; padding-top : 8px; }
-.mod-catal .esf-search-line #esf-btn-search { background : #ef662f; border : 0 none; font-size : 14px; font-weight : 600; text-transform : none; padding: 0 10px; color: #231f20; }
+.mod-catal .esf-search-line #esf-btn-search { font-family: 'Brandon Grotesque', sans-serif; background : #ef662f; border : 0 none; font-size : 15px; font-weight : 400; text-transform : uppercase; padding: 0 10px; color: #fff; }
 .mod-catal .esf-search-line #esf-btn-search:hover { background : #231f20; }
 .mod-catal .esf-search-plus { bottom : auto; line-height : 13px; margin-left : 10px; position : inherit; right : 0; text-align : left; text-transform: uppercase; font-size: 11px; padding-top: 18px; letter-spacing: 1px; }
 .mod-catal .esf-search-plus .esf-search-plus-txt { text-decoration : none; font-size: 11px; }
@@ -2111,7 +2113,11 @@ button.js-mySelection + a:hover { margin-left: 11px;  }
 
 /*div*/
 .catalogue .block.block-page.social-sharing {display: none; }
-.catalogue .pagination .pagin-item + .pagin-item { margin-left: 10px; }
+.catalogue .pagination .pagin-item + .pagin-item { }
+.catalogue .pagination .pagin-item a {padding-top: 11px; }
+.catalogue .pagination .pagin-item a:hover {color: #fff; text-decoration: none; }
+
+
 .catalogue .catal-ed-main img, .catalogue .catal-edp-item img { float: left; }
 .catalogue .catal-edp-item img {padding-right: 30px; }
 .catalogue .catal-ed-pr-date { color: #231f20!important; }
@@ -2184,6 +2190,11 @@ button.js-mySelection:after { content: ''; position: absolute; top: 0; left: 0; 
 button.js-mySelection:hover:after { width: 100%; }
 button.js-mySelection:hover .btn-primary { color: #fff!important; border-color: #231f20!important; }
 
+button.js-mySelection span { position: relative; z-index: 5; }
+
+.mod-catal [class^="btn"], .mod-catal .btn { font-family: 'Brandon Grotesque', sans-serif; }
+
+
 
 /* ------------------------------------------------------------ *\
     div
@@ -2192,3 +2203,4 @@ button.js-mySelection:hover .btn-primary { color: #fff!important; border-color: 
 .socials h5 { color: #fff; border: 1px solid #fff;
 ; font-weight: 400; text-transform: uppercase; display: inline-block; font-size: 12px; letter-spacing: 0.2em; padding: 8px 16px; position: relative; margin: 0 24px 0 0; margin-left: -30px; height: 35px; margin-right: 18px;
 }
+
