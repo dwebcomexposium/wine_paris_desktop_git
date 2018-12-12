@@ -1,5 +1,3 @@
-
-
 /* ------------------------------------------------------------ *\
     Youmax
 \* ------------------------------------------------------------ */
@@ -1657,7 +1655,7 @@ body.catalogue #zone3.top { top: 0px; }
 body.catalogue #zone3 .catal-nav-affix { display: none; }
 body.catalogue .edito.mod-catal .inside {padding: 0;}
 .catalogue .layout-2-col, .page-events .layout-2-col {width: 100%; margin: auto;  padding: 0 40px 0; width: 100%; background: #fff; }
-.catalogue #zone2 {width: 100%; }
+.catalogue #zone2, .page-events #zone2 {width: 100%; }
 
 .mod-catal a { color : #231f20; }
 .mod-catal .catal-ex-item-title a {color:#231f20}
@@ -1745,7 +1743,7 @@ body:not(.front) .mod-catal .catal-prd-item-img, body:not(.front) .mod-catal .ca
 .mod-catal .catal-ed-main .catal-ed-main-stand,
 .mod-catal .catal-ed-main .catal-prd-main-stand,
 .mod-catal .catal-prd-main .catal-ed-main-stand,
-.mod-catal .catal-prd-main .catal-prd-main-stand, .catal-ed-main-session { background : #fff; padding: 30px; border-radius: 20px; box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.07);}
+.mod-catal .catal-prd-main .catal-prd-main-stand, .catal-ed-main-session { background : #fff; padding: 30px; box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.07);}
 
 .mod-catal .catal-prd-main .catal-prd-main-stand:before { content: ''; position: absolute; top: 23px; right: 23px; bottom: 23px; left: 23px; border: 1px solid #feeeae; border-radius: 16px; box-shadow: 0 0 7px rgba(255, 210, 49, 0.63); z-index: 4; display: inline-block; }
 
@@ -2142,7 +2140,7 @@ button.js-mySelection + a:hover { margin-left: 11px;  }
 .page-events .catal-ex-item-stand-item p.date_event {font-style: normal!important; font-size: 14px; font-weight: 300; line-height: 1; color: #fff;  }
 /*.catal-nav-ex, .mod-catal.catal-nav-affix {display: none; }*/
 .page-events .slider { padding: 0; display: flex; justify-content: center; padding: 20px 0; }
-.page-events .slider .la-item-img { border-radius: 20px; }
+.page-events .slider .la-item-img {  }
 .event-view-full .mod-catal h1, .catal-ex-details .mod-catal h1 {text-align: left!important; }
 .mod-catal .btn-primary.ac-js-switcher-remote {background: none!important; }
 
@@ -2169,7 +2167,7 @@ button.js-mySelection + a:hover { margin-left: 11px;  }
 }
 
 .page-events .site-wrapper, .catalogue .site-wrapper  { max-width: 960px; }
-.mod-catal h2, .mod-catal .h2-like { border: 0; padding-top: 20px; padding-bottom: 0!important; }
+.mod-catal h2, .mod-catal .h2-like { border: 0; padding-top: 20px; padding-bottom: 0!important; text-align: left; }
 
 
 .place_event { display: inline-block; font-weight: 700; font-size: 20px; margin:10px 0 10px 10px; padding-bottom: 20px; }
@@ -2203,4 +2201,6 @@ button.js-mySelection span { position: relative; z-index: 5; }
 .socials h5 { color: #fff; border: 1px solid #fff;
 ; font-weight: 400; text-transform: uppercase; display: inline-block; font-size: 12px; letter-spacing: 0.2em; padding: 8px 16px; position: relative; margin: 0 24px 0 0; margin-left: -30px; height: 35px; margin-right: 18px;
 }
+
+
 
