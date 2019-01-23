@@ -1218,7 +1218,7 @@ header.site-banner.is-stuck .mn-link { min-height: 0; padding: 13px 26px 12px;  
 
 
 /*  Header Fixed  */
-header.site-banner.fixed { position: fixed; z-index: 9999; margin-top: 0; }
+header.site-banner.fixed { position: fixed; z-index: 1020; margin-top: 0; }
 header.site-banner.fixed:after { opacity: 1; visibility: visible; }
 header.site-banner.fixed .mn-link { min-height: 0; padding: 13px 26px 12px;  }
 /*header.site-banner.fixed .header-content { display: none; }*/
