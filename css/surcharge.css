@@ -1,3 +1,6 @@
 @charset "utf-8";
 /* CSS Document - Surcharge css Agence */
 
+.page-events .catal-ex-item-buttons, .page-events .topics_event {
+   display: none;
+}
