@@ -1293,7 +1293,7 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 
 #zone1 .links-right .btn-primary { background: #231f20; color: #fff; border: none; width: 141px; height: 141px; font-weight: 700; font-family: 'Montserrat', sans-serif; font-size: 15px; letter-spacing: 0; line-height: 1.07; padding: 0; display: flex; justify-content: center; -ms-align-items: center; align-items: center; position: relative; z-index: 10; text-transform: none;}
 
-/*#zone1 .links-right .btn-primary:after { content: ''; position: absolute; background: url(images/triangle-down.png) no-repeat 0 0;
+#zone1 .links-right .btn-primary:after { content: ''; position: absolute; background: url(images/triangle-down.png) no-repeat 0 0;
     width: 23px;
     height: 8px;
     left: 50%;
@@ -1302,7 +1302,7 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
     top: 100%;
-    }*/
+    }
     
 #zone1 .links-right .btn-primary span { transition: -webkit-transform .4s; transition: -ms-transform .4s; transition: -o-transform .4s; -webkit-transition: transform .4s; -o-transition: transform .4s; transition: transform .4s; padding: 10px;
 }
@@ -1933,7 +1933,7 @@ a.btn-primary.btn-medium {float: right; }
 
 .mod-catal .esf-form-zone { border: 6px solid #f0f0f0; border-radius : 0; margin-top : 0; padding : 40px; background: #fff}
 .mod-catal .esf-intro-title { color : #231f20; font-size : 22px; font-weight : 400; text-transform: uppercase; font-family: 'Brandon Grotesque', sans-serif; }
-.mod-catal .esf-search-line .form-select { border-radius : 0; }
+.mod-catal .esf-search-line .form-select { border-radius : 0; width: 45%!important; }
 .mod-catal .esf-search-line .form-select select { padding-bottom : 7px; padding-top : 8px; }
 .mod-catal .esf-search-line .form-select+#esf_simple_search { border-radius : 0; width: 330px; }
 .mod-catal .esf-search-line #esf_simple_search { border : 1px solid #b9b9b9; border-right : 0 none; font-size : 14px; margin-right : 0; padding-bottom : 7px; padding-top : 8px; }
@@ -2201,6 +2201,3 @@ button.js-mySelection span { position: relative; z-index: 5; }
 .socials h5 { color: #fff; border: 1px solid #fff;
 ; font-weight: 400; text-transform: uppercase; display: inline-block; font-size: 12px; letter-spacing: 0.2em; padding: 8px 16px; position: relative; margin: 0 24px 0 0; margin-left: -30px; height: 35px; margin-right: 18px;
 }
-
-
-
