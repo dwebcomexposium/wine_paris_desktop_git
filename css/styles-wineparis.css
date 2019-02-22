@@ -1346,6 +1346,14 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 .intro-alt h3 { font-size: 27px; letter-spacing: 0.075em; font-weight: 900; color: #fff; text-transform: uppercase; line-height: 1; margin: 39px 0 0;  }
 .intro-alt h3 span { font-size: 17px; letter-spacing: 0.125em; display: block; margin-top: 3px;  }
 
+.intro-alt h4 { color: #fff;  font-weight: 9500; font-size: 37px; line-height: 1; position: relative;  margin-top: 50px; }
+.intro-alt h4 span { font-size: 52px; letter-spacing: 0; display: block; margin-top: 1px;   }
+.intro-alt h4:before {content: ''; position: absolute; width: 35px; height: 4px; top: -27px; left: 0;
+background: #ffffff;  }
+
+
+
+
 .intro-alt .list-links { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); margin-top: 56px; }
 .intro-alt .list-links li { position: relative; opacity: 0; transition: -webkit-transform .4s, opacity .4s; transition: -ms-transform .4s; transition: -o-transform .4s; -webkit-transition: transform .4s; -o-transition: transform .4s, opacity .4s; transition: transform .4s, opacity .4s; }
 .intro-alt .list-links li:nth-child(1) { left: 49px; -webkit-transform: translateY(100%); -ms-transform: translateY(100%); -o-transform: translateY(100%); transform: translateY(100%); }
@@ -1629,6 +1637,9 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 
 	.intro-alt .intro__content .dates { margin: 20px 0 0;  }
 	.intro-alt h3 { margin: 20px 0 0;  font-size: 24px; 	}
+	.intro-alt h4 { margin: 50px 0 0;  font-size: 24px; 	}
+	.intro-alt h4 span {font-size: 37px; 	}
+	
 	.intro-alt .intro__foot { padding: 20px 0 20px;  }
 	.intro-alt h3 span { font-size: 17px;  }		
 }
@@ -2201,3 +2212,7 @@ button.js-mySelection span { position: relative; z-index: 5; }
 .socials h5 { color: #fff; border: 1px solid #fff;
 ; font-weight: 400; text-transform: uppercase; display: inline-block; font-size: 12px; letter-spacing: 0.2em; padding: 8px 16px; position: relative; margin: 0 24px 0 0; margin-left: -30px; height: 35px; margin-right: 18px;
 }
+
+
+
+.slider-pagin-nb, .cc-cookies  { display: none; }
