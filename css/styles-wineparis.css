@@ -1229,7 +1229,7 @@ header.site-banner.fixed .mn-link { min-height: 0; padding: 13px 26px 12px;  }
 /*header.site-banner.fixed .header-content { display: none; }*/
 header.site-banner.fixed .header-content .logo { left: 4% !important; }
 header.site-banner.fixed .header-content .ico-date { opacity: 0; }
-header.site-banner.fixed .header-content h3 { opacity: 0; }
+header.site-banner.fixed .header-content h3, header.site-banner.fixed .header-content h4 { opacity: 0; }
 header.site-banner.fixed .quicklinks.cta-badge { display: none; }
 
 header.site-banner.fixed .mn-menu-line { max-width: 100% !important; margin: 0 46px 0 0 !important; }
