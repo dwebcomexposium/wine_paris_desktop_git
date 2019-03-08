@@ -502,6 +502,8 @@ body.gallery .article-content figure { float: left; padding: 0 20px 20px 0; }
 .ico-map { background-image: url(images/ico-location.png); width: 54px; height: 54px; }
 .ico-globe { background-image: url(images/ico-globe.png); width: 52px; height: 52px; }
 .ico-users { background-image: url(images/ico-users.png); width: 58px; height: 54px; }
+.ico-crowd { background-image: url(images/ico-crowd.png); width: 72px; height: 46px; }
+
 
 .ico-sl-prev { background-image: url(images/sl-prev.png); width: 31px; height: 22px; }
 .ico-sl-next { background-image: url(images/sl-next.png); width: 31px; height: 22px; }
@@ -1115,6 +1117,10 @@ z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; poin
 .feature-primary:last-child:after { display: none; }
 
 .feature-primary + .feature-primary { border-left: none; }
+
+
+.feature-primary h3 { color: #231f20; margin: 0; padding: 0; border: none; font-family: 'Brandon Grotesque', sans-serif; font-weight: 500; font-size: 17px; letter-spacing: 0.095em; line-height: 1.2; text-transform: uppercase; padding: 25px 15px 0; }
+
 
 /* ------------------------------------------------------------ *\
     Testimonial
