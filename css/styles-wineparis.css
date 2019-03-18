@@ -297,6 +297,31 @@ body.exposer header .links-subheader { display: none; }
 .article-content ul.style2 li { margin: 0; }
 
 
+.article-content .style4 { max-width: 750px; margin: 0 auto; padding: 50px 0 70px; }
+
+
+/*landing lp*/
+body.lp .article-content ul.style2 { width: 570px; margin: 0 auto; padding-bottom: 30px; }
+body.lp .article-content ul.style2 li { position: relative; width: 270px; }
+body.lp .article-content blockquote { margin: 20px 0 }
+body.lp .article-content hr { margin-bottom: 80px; display: block; }
+
+/*Bouton lp*/
+.article-content ul li.style1 { text-align: center; }
+.article-content ul.style2 .lien1:after { content: ''; position: absolute; top: 0; left: 0; width: 0; height: 39px; background: #231f20; -webkit-transition: width .4s; -o-transition: width .4s; transition: width .4s; }
+.article-content ul.style2 .lien1:hover:after { width: 100%; }
+.article-content ul.style2 a.lien1:after { display: none; }
+.article-content ul.style2 a.lien1 { background: #ef662f; line-height: 1.2; position: relative; margin-top: 22px; display: inline-block; font-family: 'Brandon Grotesque', sans-serif; position: relative; padding: 13px 47px 13px 20px; font-size: 14px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: #fff; z-index: 10; /*margin-right: 30px; */text-decoration: none; text-align: left; }
+.article-content ul.style2 a.lien1:before { content: ''; display: inline-block; background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; position: absolute; top: 24px; right: 18px; -webkit-background-size: 100% 100%; background-size: 100% 100%; left: auto; }
+
+.article-content ul.style2 a.lien1:hover { background-color:#231f20 ; }
+
+
+.article-content p.important2 { margin: 0; padding: 28px 0; border: none; font-size: 22px; line-height: 1.03; max-width: 235px; text-transform: uppercase; color: #231f20; font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; letter-spacing: 0.025em; position: absolute; margin-top: 20px; }
+.article-content p.important2:after,
+.article-content p.important2:before { content: ''; position: absolute; top: 0; left: 0; width: 27px; height: 7px; background: #161616;  }
+.article-content p.important2:before { top: auto; bottom: 0; }
+
 
 .article-content .cl-content { display: flex; justify-content: center; flex-wrap: wrap; margin: 0 -105px; padding-top: 6px; }
 
@@ -2226,7 +2251,6 @@ button.js-mySelection span { position: relative; z-index: 5; }
 .socials h5 { color: #fff; border: 1px solid #fff;
 ; font-weight: 400; text-transform: uppercase; display: inline-block; font-size: 12px; letter-spacing: 0.2em; padding: 8px 16px; position: relative; margin: 0 24px 0 0; margin-left: -30px; height: 35px; margin-right: 18px;
 }
-
 
 
 .slider-pagin-nb, .cc-cookies  { display: none; }
