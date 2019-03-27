@@ -103,6 +103,13 @@
 			})
 		})
 
+		// Popup Video 
+		$('.video .js-btn-play').magnificPopup({
+			type: 'iframe',
+			mainClass: 'mfp-anim-in',
+			midClick: true
+		});
+
 		//Countdown
 		if ( $('#countdown').length ) {
 			
@@ -331,6 +338,8 @@
 			
 			
         };
+		
+		
 		
 		
 		
