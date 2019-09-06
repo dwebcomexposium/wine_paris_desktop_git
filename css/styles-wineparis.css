@@ -2302,6 +2302,7 @@ button.js-mySelection span { position: relative; z-index: 5; }
 /* ------------------------------------------------------------ *\
 	Winesup
 \* ------------------------------------------------------------ */
+.winesup  { padding-top: 40px; }
 
 .winesup .main-title-with-link { text-align: center; position: relative; margin-bottom: 50px; }
 .winesup .main-title-with-link > .main-title { float: none; color: #231f20; font-size: 21px; letter-spacing: 0.05em; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; }
