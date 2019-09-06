@@ -2324,6 +2324,9 @@ button.js-mySelection span { position: relative; z-index: 5; }
 .winesup .list-grids-with-pagin .gla-item .gla-item-content .gla-item-btn { position: absolute; bottom: 53px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: #fff; color: #231f20;  }
 .winesup .list-grids-with-pagin .gla-item .gla-item-content .gla-item-title { color: #fff; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; font-size: 22px; line-height: 1.36; letter-spacing: 0; }
 
+.winesup .gla-btn-read-more { border: none!important; }
+
+
 .winesup .list-grids-with-pagin .gla-item:nth-child(1) .gla-item-content { background: #f59331 !important; }
 .winesup .list-grids-with-pagin .gla-item:nth-child(1) .gla-item-content .gla-item-tag { color: #f59331; }
 .winesup .list-grids-with-pagin .gla-item:nth-child(2) .gla-item-content { background: #ef662f !important; }
