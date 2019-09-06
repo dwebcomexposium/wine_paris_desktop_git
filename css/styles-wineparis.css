@@ -73,7 +73,7 @@
     Base
 \* ------------------------------------------------------------ */
 
-body { min-width: 320px; font-family: 'Brandon Grotesque', sans-serif; color: #231f20;  }
+body { min-width: 320px; font-family: 'Brandon Grotesque', sans-serif; color: #231f20; }
 
 *,
 *:after,
@@ -2298,3 +2298,94 @@ button.js-mySelection span { position: relative; z-index: 5; }
 .video .video__content h3 { text-decoration: none; color: #fff; text-transform: uppercase; font-size: 22px; line-height: 1.14; letter-spacing: .02em; font-weight: 800; }
 .video .video__image { position: absolute; top: 0; right: 0; width: 41%; height: 100%; background-size: cover; background-position: center; background-repeat: no-repeat; }
 
+
+/* ------------------------------------------------------------ *\
+	Winesup
+\* ------------------------------------------------------------ */
+
+.winesup .main-title-with-link { text-align: center; position: relative; margin-bottom: 50px; }
+.winesup .main-title-with-link > .main-title { float: none; color: #231f20; font-size: 21px; letter-spacing: 0.05em; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; }
+.winesup .main-title-with-link > .link-view-all { position: absolute; top: 474px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); font-weight: 700; font-family: 'Brandon Grotesque', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; background: none !important; }
+.winesup .main-title-with-link > .link-view-all:hover {color: #231f20; }
+
+
+.winesup .main-title-with-link > .link-view-all i { display: inline-block; margin: 0 0 0 10px; background: url(images/ico-arrow-right.png) no-repeat  0 0;  width: 15px; height: 7px; -webkit-background-size: 100% 100%; background-size: 100% 100%;  }
+.winesup .main-title-with-link > .link-view-all i:before { display: none; }
+
+.winesup .list-grids-with-pagin .grid-la-list { margin: 0 -15px -30px; margin-bottom: 204px; }
+.winesup .list-grids-with-pagin .grid-la-list  {  }
+.winesup .list-grids-with-pagin .gla-item { padding: 0 15px 30px; flex: 0 0 25%; max-width: 25%; }
+.winesup .list-grids-with-pagin .gla-item > a { display: block; }
+
+.winesup .list-grids-with-pagin .gla-item:after { top: auto; bottom: 33px; }
+.winesup .list-grids-with-pagin .gla-item .gla-item-content  { color: #fff; display: block; position: relative; padding: 110px 20px 20px; min-height: 339px; }
+.winesup .list-grids-with-pagin .gla-item .gla-item-content .gla-item-tag { background: #fff; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 10px;  min-width: 88px; top: 73px; padding: 1px 4px 0;  }
+.winesup .list-grids-with-pagin .gla-item .gla-item-content .gla-item-tag:after { content: ''; position: absolute; top: -30px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/ico-w.png) no-repeat 0 0; width: 49px; height: 34px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.winesup .list-grids-with-pagin .gla-item .gla-item-content .gla-item-btn { position: absolute; bottom: 53px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: #fff; color: #231f20;  }
+.winesup .list-grids-with-pagin .gla-item .gla-item-content .gla-item-title { color: #fff; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; font-size: 22px; line-height: 1.36; letter-spacing: 0; }
+
+.winesup .list-grids-with-pagin .gla-item:nth-child(1) .gla-item-content { background: #f59331 !important; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(1) .gla-item-content .gla-item-tag { color: #f59331; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(2) .gla-item-content { background: #ef662f !important; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(2) .gla-item-content .gla-item-tag { color: #ef662f; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(3) .gla-item-content { background: #689598 !important; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(3) .gla-item-content .gla-item-tag { color: #689598; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(4) .gla-item-content { background: #bc2132 !important; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(4) .gla-item-content .gla-item-tag { color: #bc2132; }
+
+
+
+/* ------------------------------------------------------------ *\
+	Section Def
+\* ------------------------------------------------------------ */
+
+.section-def { background: #f3f1ed; padding: 101px 0 94px; }
+.section-def .inside { width: 1170px; margin: auto; }
+
+.section-def .section__image { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 340px; height: 340px; border-radius: 50%; overflow: hidden; margin-top: -77px; background-position: center center; }
+.section-def .section__image span { position: absolute; bottom: 54px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: #fff; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; font-size: 12px; color: #2b2622; letter-spacing: 0.15em; text-transform: uppercase; padding: 4px 4px; min-width: 187px; text-align: center; }
+
+.section-def .section__inner { display: flex; justify-content: space-between; position: relative; }
+
+.section-def .section__content { margin: 0; flex: 0 0 340px; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 14px; line-height: 1.79; color: #161616; }
+.section-def .section__content p { letter-spacing: 0.05em; margin: 0; line-height: 1.8; letter-spacing: 0.06em; margin-right: -10px; }
+.section-def .section__content a { color: #161616; }
+
+.section-def .section__content h3 { position: relative; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; font-size: 27px; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 17px; position: relative; line-height: 1.4; }
+.section-def .section__content h3:after { content: ''; position: absolute; top: -30px; left: 0; width: 37px; height: 8px; background: #161616; }
+.section-def .section__content h4 { font-size: 18px; margin-bottom: 12px; letter-spacing: 0.05em; margin-right: -10px; margin-top: -23px; }
+
+.link-alt { font-family: 'Brandon Grotesque', sans-serif; font-weight: 700; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; margin-left: 3px; margin-top: 17px; display: inline-block; color: #231f20; }
+.link-alt:hover { color: #231f20; }
+.link-alt i { width: 14px; height: 7px; margin-left: 10px; }
+
+
+
+
+/* ------------------------------------------------------------ *\
+	Gabrielle
+\* ------------------------------------------------------------ */
+
+.gabrielle { background: #f3f1ed; padding-bottom: 55px;  margin-top: 0 !important; }
+
+.gabrielle .grid-la-list { margin: 0 -37px -55px; }
+.gabrielle .grid-la-list .gla-item { padding: 0 37px 55px; }
+
+.gabrielle .grid-la-list .gla-item  {  }
+.gabrielle .grid-la-list .gla-item:after { top: 326px; }
+.gabrielle .grid-la-list .gla-item .at-tag { padding: 0; border: none; position: absolute; top: 266px; left: 0; width: 100%; padding: 0 40px; display: none; }
+.gabrielle .grid-la-list .gla-item .at-tag-item { border: none; padding: 0; }
+.gabrielle .grid-la-list .gla-item .at-tag-item + .at-tag-item  { margin-left: 5px; }
+.gabrielle .grid-la-list .gla-item .at-tag-item a {  text-decoration: none; color: #fff; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 12px; }
+.gabrielle .grid-la-list .gla-item .gla-item-content { padding: 35px 20px 10px; min-height: 205px;  }
+.gabrielle .grid-la-list .gla-item .gla-item-title { font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; font-size: 18px; line-height: 1.33; letter-spacing: 0.05em; padding: 0 10px; margin-bottom: 52px; }
+.gabrielle .grid-la-list .gla-item .gla-item-btn { margin: 0 auto; }
+
+.gabrielle .grid-la-list .gla-item .gla-item-tag { position: absolute; top: 266px; left: 0; width: 100%; padding: 0 40px; background: none; color: #fff; text-decoration: none; color: #fff; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 12px;  -webkit-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0); text-transform: none; letter-spacing: 0.1em; }
+
+
+/* ------------------------------------------------------------ *\
+	Section Actions
+\* ------------------------------------------------------------ */
+
+.section-actions { text-align: center; background: #f3f1ed; padding-bottom: 108px; margin-bottom: 100px; }
