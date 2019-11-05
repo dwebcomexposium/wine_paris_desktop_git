@@ -97,14 +97,14 @@ h1, .h1-like, h2, .h2-like, h3, .h3-like, h4, .h4-like, h5, .h5-like, h6, .h6-li
     Logo
 \* ------------------------------------------------------------ */
 
-.logo { display: inline-block; background: url(images/logo-banner.png) no-repeat 0 0; width: 193px; height: 318px; }
-.logo-w { display: inline-block; background: url(images/logo-w.png) no-repeat 0 0; width: 99px; height: 69px;  }
+.logo { display: inline-block; background: url(wine_paris_desktop_git/images/logo-banner.png) no-repeat 0 0; width: 193px; height: 318px; }
+.logo-w { display: inline-block; background: url(wine_paris_desktop_git/images/logo-w.png) no-repeat 0 0; width: 99px; height: 69px;  }
 
-.logo-big { display: inline-block; background: url(images/logo-big.png) no-repeat 0 0; width: 331px; height: 234px; -webkit-background-size: 100% 100%; background-size: 100% 100%;  }
+.logo-big { display: inline-block; background: url(wine_paris_desktop_git/images/logo-big.png) no-repeat 0 0; width: 331px; height: 234px; -webkit-background-size: 100% 100%; background-size: 100% 100%;  }
 
-.logo1 { display: inline-block; background: url(images/logo1.png) no-repeat 0 0; width: 147px; height: 24px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
-.logo2 { display: inline-block; background: url(images/logo-adhesion-group.png) no-repeat 0 0; width: 139px; height: 34px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
-.logo3 { display: inline-block; background: url(images/logo-stockfood.png) no-repeat 0 0; width: 56px; height: 58px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.logo1 { display: inline-block; background: url(wine_paris_desktop_git/images/logo1.png) no-repeat 0 0; width: 147px; height: 24px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.logo2 { display: inline-block; background: url(wine_paris_desktop_git/images/logo-adhesion-group.png) no-repeat 0 0; width: 139px; height: 34px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.logo3 { display: inline-block; background: url(wine_paris_desktop_git/images/logo-stockfood.png) no-repeat 0 0; width: 56px; height: 58px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 
 
@@ -117,7 +117,7 @@ h1, .h1-like, h2, .h2-like, h3, .h3-like, h4, .h4-like, h5, .h5-like, h6, .h6-li
 
 /*  Body Links  */
 body:not(.front) .global-wrapper { padding-top: 228px; }
-body:not(.front) .global-wrapper:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 297px; background: url(images/inner-background.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; }
+body:not(.front) .global-wrapper:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 297px; background: url(wine_paris_desktop_git/images/inner-background.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; }
 
 body.article_list #main { position: relative; z-index: 10; }
 body.article_list .site-wrapper { background: none; }
@@ -170,18 +170,18 @@ body.exposer header .links-subheader { display: none; }
 .quicklinks.cta-badge:hover a { -webkit-transform: scale(1.01); -ms-transform: scale(1.01); -o-transform: scale(1.01); transform: scale(1.01); }
 .quicklinks.cta-badge .btn-primary { display: inline-block; background: #fff; border: none; width: 233px; position: relative; text-align: left; border-left: 72px solid #231f20; padding: 9px 8px 12px 27px; line-height: 1; transition: -webkit-transform .4s; transition: -ms-transform .4s; transition: -o-transform .4s; -webkit-transition: transform .4s; -o-transition: transform .4s; transition: transform .4s; backface-visibility: hidden; }
 .quicklinks.cta-badge .btn-primary:hover {}
-.quicklinks.cta-badge .btn-primary:after { content: ''; position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(images/arrow-dark.png) no-repeat 0 0; width: 6px; height: 21px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.quicklinks.cta-badge .btn-primary:after { content: ''; position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(wine_paris_desktop_git/images/arrow-dark.png) no-repeat 0 0; width: 6px; height: 21px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 .quicklinks.cta-badge .btn-primary i {  position: absolute; top: 50%; left: -53px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
 .quicklinks.cta-badge .btn-primary span { font-size: 14px; line-height: 1.21 !important; letter-spacing: 0.075em; color: #302823; font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; }
-.quicklinks.cta-badge .btn-primary .icon-badge { margin: 0; background: url(images/ico-badget.png) no-repeat 0 0; width: 34px; height: 23px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.quicklinks.cta-badge .btn-primary .icon-badge { margin: 0; background: url(wine_paris_desktop_git/images/ico-badget.png) no-repeat 0 0; width: 34px; height: 23px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 
 .quicklinks.reserver-stand { position: absolute; top: 136px; right: 40px; }
 .quicklinks.reserver-stand .btn-primary { background: #fff; border: none; width: 233px; position: relative; text-align: left; border-left: 72px solid #231f20; padding: 11px 8px 10px 27px; line-height: 1;  }
-.quicklinks.reserver-stand .btn-primary:after { content: ''; position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(images/arrow-dark.png) no-repeat 0 0; width: 6px; height: 21px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.quicklinks.reserver-stand .btn-primary:after { content: ''; position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(wine_paris_desktop_git/images/arrow-dark.png) no-repeat 0 0; width: 6px; height: 21px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 .quicklinks.reserver-stand .btn-primary i {  position: absolute; top: 50%; left: -53px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
 .quicklinks.reserver-stand .btn-primary span { font-size: 14px; line-height: 1.21 !important; letter-spacing: 0.075em; color: #302823; font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; }
-.quicklinks.reserver-stand .btn-primary .icon-reserver { margin: 0; background: url(images/ico-badget.png) no-repeat 0 0; width: 34px; height: 23px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.quicklinks.reserver-stand .btn-primary .icon-reserver { margin: 0; background: url(wine_paris_desktop_git/images/ico-badget.png) no-repeat 0 0; width: 34px; height: 23px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 
 
@@ -194,12 +194,12 @@ body.exposer header .links-subheader { display: none; }
 .article-title { position: relative; margin-top: 40px; }
 .article-title:after { content: ''; position: absolute; bottom: 100%; left: 50%; width: 960px; height: 40px; background: #fff; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); }
 .article-title .inside { position: relative; display: flex; justify-content: space-between;flex-direction: column; }
-.article-title .inside:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; display: none; }
+.article-title .inside:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(wine_paris_desktop_git/images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; display: none; }
 
 .article-title .inside .at-main-title { text-transform: uppercase; text-align: center; font-size: 33px; line-height: 1.15; letter-spacing: 0.025em; font-family: 'Brandon Grotesque', sans-serif; color: #231f20; padding: 0 100px; }
 .article-title .inside img { order: 1 }
 .article-title .inside .at-content { position: relative; padding-bottom: 38px; }
-.article-title .inside .at-content:after { content: ''; position: absolute; top: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; }
+.article-title .inside .at-content:after { content: ''; position: absolute; top: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(wine_paris_desktop_git/images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; }
 
 .article-intro { margin: 40px auto; max-width: 800px; text-align: center; }
 .article-intro p { font-size: 19px; line-height: 1.58; font-family: 'Montserrat', sans-serif; font-weight: 400; }
@@ -223,7 +223,7 @@ body.exposer header .links-subheader { display: none; }
 .article-content figure.center { max-width: 960px; margin: 0 auto 55px; }
 .article-content figure.center img { margin: 0 auto; }
 .article-content figure.center { position: relative; }
-.article-content figure.center:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; }
+.article-content figure.center:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(wine_paris_desktop_git/images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; }
 
 
 .article-content p { letter-spacing: 0.05em; }
@@ -582,7 +582,7 @@ body.article .site-wrapper:before { content: ''; position: absolute; top: -105px
 .la-slider .la-item { width: 1170px; }
 .la-slider .slider-pagin { position: absolute !important; top: 50%; left: 0; width: 100%; background: none; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); padding: 0; display: none; }
 .la-slider .slider-pagin-btn { position: static; }
-.la-slider .slider-pagin-btn .btn { opacity: 1 !important; padding: 0; background: url(images/sl-prev.png) no-repeat 0 0; width: 31px; height: 22px; -webkit-background-size: 100% 100%; background-size: 100% 100%; border: none;  }
+.la-slider .slider-pagin-btn .btn { opacity: 1 !important; padding: 0; background: url(wine_paris_desktop_git/images/sl-prev.png) no-repeat 0 0; width: 31px; height: 22px; -webkit-background-size: 100% 100%; background-size: 100% 100%; border: none;  }
 .la-slider .slider-pagin-btn .btn i { display: none; }
 
 
@@ -641,7 +641,7 @@ body.article .site-wrapper:before { content: ''; position: absolute; top: -105px
 .la-item { position: relative; padding-left: 400px; margin-top: 0 !important; }
 .la-item img { width: 100%; }
 .la-item .la-item-content { padding: 68px 47px; position: absolute; top: 0; left: 0; width: 400px; height: 100%; background: #c2b49c; overflow: visible; display: flex; justify-content: center; flex-direction: column; }
-.la-item .la-item-content:after { content: ''; position: absolute; top: 50%; left: 100%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(images/arrow-brown.png) no-repeat 0 0; width: 17px; height: 69px;  }
+.la-item .la-item-content:after { content: ''; position: absolute; top: 50%; left: 100%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(wine_paris_desktop_git/images/arrow-brown.png) no-repeat 0 0; width: 17px; height: 69px;  }
 
 .la-item .la-item-tag { position: static; background: #fff; color: #c2b49c; text-transform: uppercase; font-size: 12px; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.15em; padding: 4px 9px 0; margin-bottom: 19px; display: inline-block; max-width: 104px; }
 .la-item .la-item-title { font-size: 30px; line-height: 1.07; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 20px; }
@@ -653,7 +653,7 @@ body.article .site-wrapper:before { content: ''; position: absolute; top: -105px
 .la-item .la-item-btn:hover .btn-primary { color: #fff; border-color: #231f20; }
 
 .la-item .la-item-btn .btn-primary { background: none; border: 1px solid #fff; font-size: 12px; letter-spacing: 0.1em; font-weight: 500; font-family: 'Brandon Grotesque', sans-serif; position: relative; padding: 12px 48px 10px 18px; z-index: 10; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; }
-.la-item .la-item-btn .btn-primary i { background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; -webkit-background-size: 100% 100%; background-size: 100% 100%; display: inline-block !important; margin-left: 10px; vertical-align: middle; position: relative; top: -3px; position: absolute; top: 50%; right: 10px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
+.la-item .la-item-btn .btn-primary i { background: url(wine_paris_desktop_git/images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; -webkit-background-size: 100% 100%; background-size: 100% 100%; display: inline-block !important; margin-left: 10px; vertical-align: middle; position: relative; top: -3px; position: absolute; top: 50%; right: 10px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
 
 /* ------------------------------------------------------------ *\
     List
@@ -773,7 +773,7 @@ body.article .site-wrapper:before { content: ''; position: absolute; top: -105px
 .evenements .gla-item .gla-item-content .gla-item-btn:hover .gla-btn-read-more { border-color: #231f20; }
 
 .evenements .gla-item .gla-item-content .gla-btn-read-more { border: 1px solid #fff; background: none; z-index: 10; position: relative; font-size: 12px !important; font-family: 'Brandon Grotesque', sans-serif; font-weight: 500; letter-spacing: 0.1em; padding: 12px 12px 8px 16px; color: #fff; }
-.evenements .gla-item .gla-item-content .gla-btn-read-more i { background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; -webkit-background-size: 100% 100%; background-size: 100% 100%; display: inline-block !important; margin-left: 10px; vertical-align: middle; position: relative; top: -3px; }
+.evenements .gla-item .gla-item-content .gla-btn-read-more i { background: url(wine_paris_desktop_git/images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; -webkit-background-size: 100% 100%; background-size: 100% 100%; display: inline-block !important; margin-left: 10px; vertical-align: middle; position: relative; top: -3px; }
 .evenements .gla-item .gla-item-content .gla-btn-read-more i:before { display: none; }
 
 .evenements .gla-item:nth-child(2) { -webkit-transform: translateX(130px); -ms-transform: translateX(130px); -o-transform: translateX(130px); transform: translateX(130px); }
@@ -786,7 +786,7 @@ body.article .site-wrapper:before { content: ''; position: absolute; top: -105px
     Partner
 \* ------------------------------------------------------------ */
 
-.front .partner { background: url(images/part-back.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; margin: 0 !important; padding: 60px 0 155px; position: relative; }
+.front .partner { background: url(wine_paris_desktop_git/images/part-back.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; margin: 0 !important; padding: 60px 0 155px; position: relative; }
 
 .front .partner .main-title-with-link { border: none; text-align: center; margin: 0 0 36px; padding: 0; }
 .front .partner .main-title-with-link .link-view-all { position: absolute; bottom: 73px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); border: 1px solid #fff; color: #fff; font-weight: 500; letter-spacing: 0.1em; font-size: 12px; text-transform: uppercase; background: none !important; padding: 8px 20px;  }
@@ -794,7 +794,7 @@ body.article .site-wrapper:before { content: ''; position: absolute; top: -105px
 .front .partner .main-title-with-link .link-view-all i:before { display: none; }
 
 .front .partner .main-title-with-link .main-title { color: #fff; float: none; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; font-size: 35px; letter-spacing: 0.05em; position: relative; padding: 64px 0 0;  }
-.front .partner .main-title-with-link .main-title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/ico-pin-white.png) no-repeat 0 0; width: 24px; height: 37px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.front .partner .main-title-with-link .main-title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(wine_paris_desktop_git/images/ico-pin-white.png) no-repeat 0 0; width: 24px; height: 37px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 
 .front .partner .slider-item { padding: 0 10px; width: 220px !important; }
@@ -816,7 +816,7 @@ body.article .site-wrapper:before { content: ''; position: absolute; top: -105px
 
 .widget-primary .widget__outer { background: #fff; z-index: 10; }
 .widget-primary .widget__inner { width: 728px; margin: auto; border: 1px solid #dee7e9; position: relative; z-index: 20; overflow: hidden; padding: 10px 10px 10px 50px; background: #fff; }
-.widget-primary .widget__inner:after { content: ''; position: absolute; top: -50px; left: -47px; background: url(images/triangle-side.png) no-repeat 0 0; width: 117px; height: 179px; }
+.widget-primary .widget__inner:after { content: ''; position: absolute; top: -50px; left: -47px; background: url(wine_paris_desktop_git/images/triangle-side.png) no-repeat 0 0; width: 117px; height: 179px; }
 .widget-primary .widget__inner a { vertical-align: middle; position: relative; z-index: 10; }
 .widget-primary .widget__inner h2 { display: inline-block; margin: 0 0 0 31px; padding: 0; vertical-align: middle; border: none; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 40px; color: #231f20; position: relative; z-index: 20;  }
 .widget-primary .widget__inner .btn-alt { margin-left: 31px;  }
@@ -830,7 +830,7 @@ body.article .site-wrapper:before { content: ''; position: absolute; top: -105px
 .observatoire .main-title-with-link { text-align: center; border: none; margin-bottom: 13px; }
 .observatoire .main-title-with-link .main-title { float: none; font-size: 21px; font-weight: 900; color: #231f20; letter-spacing: 0.05em; font-family: 'Brandon Grotesque', sans-serif; margin: 0; padding: 0; }
 .observatoire .main-title-with-link .link-view-all { position: absolute; bottom: 10px; right: 8px; margin: 0; padding: 0; font-weight: 700; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; background: none !important; }
-.observatoire .main-title-with-link .link-view-all i { display: inline-block; background: #fff url(images/ico-arrow-right.png) no-repeat 0 0; width: 14px; height: 7px; -webkit-background-size: 100% 100%; background-size: 100% 100%; margin-left: 10px; }
+.observatoire .main-title-with-link .link-view-all i { display: inline-block; background: #fff url(wine_paris_desktop_git/images/ico-arrow-right.png) no-repeat 0 0; width: 14px; height: 7px; -webkit-background-size: 100% 100%; background-size: 100% 100%; margin-left: 10px; }
 .observatoire .main-title-with-link .link-view-all i:before { display: none; }
 
 .observatoire .slider-pagin { position: absolute; top: 50%; left: 0; width: 100%; background: none;  padding: 0; position: static;  }
@@ -838,10 +838,10 @@ body.article .site-wrapper:before { content: ''; position: absolute; top: -105px
 
 
 .observatoire .slider-pagin-btn { position: static; }
-.observatoire .slider-pagin-btn .btn { opacity: 1 !important; padding: 0; background: url(images/sl-prev.png) no-repeat 0 0; width: 31px; height: 22px; -webkit-background-size: 100% 100%; background-size: 100% 100%; border: none; margin-left: -90px; position: absolute; top: 50%; left: 0;  }
+.observatoire .slider-pagin-btn .btn { opacity: 1 !important; padding: 0; background: url(wine_paris_desktop_git/images/sl-prev.png) no-repeat 0 0; width: 31px; height: 22px; -webkit-background-size: 100% 100%; background-size: 100% 100%; border: none; margin-left: -90px; position: absolute; top: 50%; left: 0;  }
 .observatoire .slider-pagin-btn .btn i { display: none; }
 
-.observatoire .slider-pagin-btn .slider-btn-next { margin: 0 -90px 0 0; left: auto; right: 0; background: url(images/sl-next.png) no-repeat 0 0; width: 31px; height: 22px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.observatoire .slider-pagin-btn .slider-btn-next { margin: 0 -90px 0 0; left: auto; right: 0; background: url(wine_paris_desktop_git/images/sl-next.png) no-repeat 0 0; width: 31px; height: 22px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 .observatoire .slider-paging { position: absolute; bottom: 18px; left: 46px; z-index: 10; }
 .observatoire .slider-paging a {text-decoration: none; width: 26px; height: 26px; border-radius: 50%; border: 1px solid transparent; background: none; font-size: 12px; letter-spacing: 0.1em; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; display: inline-block; padding: 4px 0 0; text-align: center; color: #fff;  }
@@ -904,10 +904,10 @@ body.article .site-wrapper:before { content: ''; position: absolute; top: -105px
 
 .pourquoi-exposer .slider-pagin { position: absolute; top: 50%; left: 0; width: 100%; background: none;  padding: 0; position: static;  }
 .pourquoi-exposer .slider-pagin-btn { position: static; }
-.pourquoi-exposer .slider-pagin-btn .btn { opacity: 1 !important; padding: 0; background: url(images/sl-prev.png) no-repeat 0 0; width: 31px; height: 22px; -webkit-background-size: 100% 100%; background-size: 100% 100%; border: none; margin-left: -90px; position: absolute; top: 50%; left: 0;  }
+.pourquoi-exposer .slider-pagin-btn .btn { opacity: 1 !important; padding: 0; background: url(wine_paris_desktop_git/images/sl-prev.png) no-repeat 0 0; width: 31px; height: 22px; -webkit-background-size: 100% 100%; background-size: 100% 100%; border: none; margin-left: -90px; position: absolute; top: 50%; left: 0;  }
 .pourquoi-exposer .slider-pagin-btn .btn i { display: none; }
 
-.pourquoi-exposer .slider-pagin-btn .slider-btn-next { margin: 0 -90px 0 0; left: auto; right: 0; background: url(images/sl-next.png) no-repeat 0 0; width: 31px; height: 22px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.pourquoi-exposer .slider-pagin-btn .slider-btn-next { margin: 0 -90px 0 0; left: auto; right: 0; background: url(wine_paris_desktop_git/images/sl-next.png) no-repeat 0 0; width: 31px; height: 22px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 
 
@@ -1112,14 +1112,14 @@ z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; poin
 
 /*  Feature Dark  */
 .feature--dark { background: #231f20;  }
-.feature--dark:after { content: ''; position: absolute; top: 50%; left: 100%; background: url(images/arrow-dark.png) no-repeat 0 0; width: 18px; height: 63px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%);  }
+.feature--dark:after { content: ''; position: absolute; top: 50%; left: 100%; background: url(wine_paris_desktop_git/images/arrow-dark.png) no-repeat 0 0; width: 18px; height: 63px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%);  }
 
 .feature--dark .feature__content { color: #fff;  }
 .feature--dark .feature__content h4 { color: #fff;  }
 .feature--dark .feature__content .btn-circle { background: #fff; }
 
 .feature--dark-alt { left: 1px; }
-.feature--dark-alt:after  { background: url(images/arrow-dark-left.png) no-repeat 0 0; left: auto; right: 100%; }
+.feature--dark-alt:after  { background: url(wine_paris_desktop_git/images/arrow-dark-left.png) no-repeat 0 0; left: auto; right: 100%; }
 
 /* ------------------------------------------------------------ *\
     Features Primary
@@ -1168,30 +1168,30 @@ z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; poin
 .testimonial .testimonial__content { position: relative; padding: 43px 30px 20px; min-height: 346px; margin-top: 20px; }
 
 .testimonial .testimonial__foot { background: #bc2131; color: #fff; position: relative; text-align: center; padding: 31px 10px 14px; }
-.testimonial .testimonial__foot:after { content: ''; position: absolute; top: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/arrow-d-red-1.png) no-repeat 0 0; width: 39px; height: 11px;   }
+.testimonial .testimonial__foot:after { content: ''; position: absolute; top: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(wine_paris_desktop_git/images/arrow-d-red-1.png) no-repeat 0 0; width: 39px; height: 11px;   }
 .testimonial .testimonial__foot h5 { color: #fff; font-weight: 400; letter-spacing: 0.05em; line-height: 1; margin-bottom: 5px; }
 .testimonial .testimonial__foot h5 strong { display: block; font-weight: 900; letter-spacing: 0.1em; margin-top: 8px; text-transform: uppercase; }
 .testimonial .testimonial__foot h6 { color: #fff; opacity: .5; font-weight: 700; font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; }
 
 .testimonial--orange .quote { color: #ef662f; }
 .testimonial--orange .testimonial__foot { background: #ef662f; }
-.testimonial--orange .testimonial__foot:after { background-image: url(images/arrow-d-orange-1.png); }
+.testimonial--orange .testimonial__foot:after { background-image: url(wine_paris_desktop_git/images/arrow-d-orange-1.png); }
 
 .testimonial--blue .quote { color: #689598; }
 .testimonial--blue .testimonial__foot  { background: #689598; }
-.testimonial--blue .testimonial__foot:after { background-image: url(images/arrow-d-green-1.png); }
+.testimonial--blue .testimonial__foot:after { background-image: url(wine_paris_desktop_git/images/arrow-d-green-1.png); }
 
 .testimonial--blue-dark .quote { color: #214955; }
 .testimonial--blue-dark .testimonial__foot  { background: #214955; }
-.testimonial--blue-dark .testimonial__foot:after { background-image: url(images/arrow-d-blue-11.png); }
+.testimonial--blue-dark .testimonial__foot:after { background-image: url(wine_paris_desktop_git/images/arrow-d-blue-11.png); }
 
 .testimonial--yellow .quote { color: #f59331; }
 .testimonial--yellow .testimonial__foot  { background: #f59331; }
-.testimonial--yellow .testimonial__foot:after { background-image: url(images/arrow-d-yellow-1.png); }
+.testimonial--yellow .testimonial__foot:after { background-image: url(wine_paris_desktop_git/images/arrow-d-yellow-1.png); }
 
 .testimonial--gray .quote { color: #9cb4be; }
 .testimonial--gray .testimonial__foot  { background: #9cb4be; }
-.testimonial--gray .testimonial__foot:after { background-image: url(images/arrow-d-gray-1.png); }
+.testimonial--gray .testimonial__foot:after { background-image: url(wine_paris_desktop_git/images/arrow-d-gray-1.png); }
 
 /* ------------------------------------------------------------ *\
     Header
@@ -1246,7 +1246,7 @@ header.site-banner .header-content { position: absolute; top: 25px; /*left: 77px
 header.site-banner .header-content h3 { margin: 8px 0 0; color: #fff; font-weight: 900; font-size: 18px; letter-spacing: 0.075em; text-align: left; text-transform: uppercase; line-height: 1.3; }
 header.site-banner .header-content h3 span { display: block; font-size: 11px; letter-spacing: 0.11em; }
 header.site-banner .header-content .logo--small { width: 121px; height: 200px; -webkit-background-size: 100% 100%; background-size: 100% 100%; position: absolute; top: 0; left: 0; }
-header.site-banner .header-content .ico-date { background-image: url(images/ico-dates.png); width: 73px; height: 110px;   }
+header.site-banner .header-content .ico-date { background-image: url(wine_paris_desktop_git/images/ico-dates.png); width: 73px; height: 110px;   }
 
 header.site-banner .header-content h4 { color: #fff;  font-weight: 700; font-size: 27px; line-height: 1; position: relative;  margin: 23px 0 12px; }
 header.site-banner .header-content h4 span { font-size: 40px; letter-spacing: 0; display: block; margin-top: 1px;   }
@@ -1319,9 +1319,9 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 
 .fixed-header .intro-alt .logo { left: -20% !important; }
 
-.fixed-logo .intro-alt .logo { position: fixed !important; top: 40px !important; left: 4% !important; width: 100px; height: 165px; -webkit-background-size: 100% 100%; background-size: 100% 100%; background-image: url(images/logo-banner-sticky.png); }
+.fixed-logo .intro-alt .logo { position: fixed !important; top: 40px !important; left: 4% !important; width: 100px; height: 165px; -webkit-background-size: 100% 100%; background-size: 100% 100%; background-image: url(wine_paris_desktop_git/images/logo-banner-sticky.png); }
 
-.fixed-logo .logo--small { position: fixed !important; top: 40px !important; left: 4% !important; width: 100px !important; height: 165px !important; -webkit-background-size: 100% 100% !important; background-size: 100% 100% !important; background-image: url(images/logo-banner-sticky.png);}
+.fixed-logo .logo--small { position: fixed !important; top: 40px !important; left: 4% !important; width: 100px !important; height: 165px !important; -webkit-background-size: 100% 100% !important; background-size: 100% 100% !important; background-image: url(wine_paris_desktop_git/images/logo-banner-sticky.png);}
 
 
 .intro-alt .logo { transition: margin .6s, left .6s; }
@@ -1360,7 +1360,7 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
     Link Infos
 \* ------------------------------------------------------------ */
 
-.links-infos { background: url(images/bg1.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; padding: 53px 0 102px; }
+.links-infos { background: url(wine_paris_desktop_git/images/bg1.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; padding: 53px 0 102px; }
 
 .links-infos .block-title { border: none; padding: 0; margin: 0 0 49px; text-align: center; font-size: 21px; font-weight: 900; letter-spacing: 0.05em; color: #fff;  }
 
@@ -1498,7 +1498,7 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 .section-socials { padding: 60px 0 100px; }
 .section-socials .section__head { text-align: center; margin-bottom: 41px; }
 .section-socials .section__title { color: #231f20; font-size: 40px; font-weight: 400; font-family: 'Brandon Grotesque', sans-serif; text-transform: uppercase; letter-spacing: 0.05em; border: none; margin-bottom: 19px; padding: 0; position: relative; padding: 100px 0 0;  }
-.section-socials .section__title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/ico-pin.png) no-repeat 0 0; width: 31px; height: 48px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.section-socials .section__title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(wine_paris_desktop_git/images/ico-pin.png) no-repeat 0 0; width: 31px; height: 48px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 .section-socials .section__body { display: flex; justify-content: center; align-items: flex-start; text-align: center; }
 .section-socials .section__body .logo-big { display: block;  margin: 0 auto 30px; }
@@ -1511,7 +1511,7 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
     Edito Vin
 \* ------------------------------------------------------------ */
 
-.edito-vin { padding: 64px 0 1px;  }
+.edito-vin { padding: 44px 0 1px;  }
 .edito-vin .inside { position: relative; left: 12px; max-width: 1170px; margin: auto; padding-left: 229px; }
 .edito-vin .inside:after { content: ''; display: table; clear: both; }
 
@@ -1525,7 +1525,7 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
 .edito-vin .inside p.focus2 { margin-top: 18px; }
 
 .edito-vin .inside p a { text-decoration: none; font-family: 'Brandon Grotesque', sans-serif; font-weight: 700; text-transform: uppercase; color: #231f20; letter-spacing: 0.1em; font-size: 10px; position: relative; padding-right: 22px; }
-.edito-vin .inside p a:after { content: ''; position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(images/ico-arrow-right.png) no-repeat 0 0; width: 14px; height: 7px; -webkit-background-size: 100% 100%;
+.edito-vin .inside p a:after { content: ''; position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(wine_paris_desktop_git/images/ico-arrow-right.png) no-repeat 0 0; width: 14px; height: 7px; -webkit-background-size: 100% 100%;
         background-size: 100% 100%; }
         
         
@@ -1642,7 +1642,7 @@ header.site-banner {  max-width: 100%; margin-left: -50%;  }
 .main-navigation .mn-menu-line > ul > li > a { padding: 14px 15px 13px; }
 header.site-banner .header-content { padding-left: 112px; }
 header.site-banner .header-content .logo--small { width: 93px; height: 154px; }
-header.site-banner .header-content .ico-date { background-image: url(images/ico-dates.png); width: 73px; height: 110px;   }
+header.site-banner .header-content .ico-date { background-image: url(wine_paris_desktop_git/images/ico-dates.png); width: 73px; height: 110px;   }
 
 .socials--alt { display: none; }
 .fixed-logo .logo--small { left: -10px!important; width: 85px !important; height: 118px !important; }
@@ -2302,6 +2302,7 @@ button.js-mySelection span { position: relative; z-index: 5; }
 /* ------------------------------------------------------------ *\
 	Winesup
 \* ------------------------------------------------------------ */
+
 .winesup  { padding-top: 40px; }
 
 .winesup .main-title-with-link { text-align: center; position: relative; margin-bottom: 50px; }
@@ -2393,3 +2394,25 @@ button.js-mySelection span { position: relative; z-index: 5; }
 \* ------------------------------------------------------------ */
 
 .section-actions { text-align: center; background: #f3f1ed; padding-bottom: 108px; margin-bottom: 100px; }
+
+
+/* ------------------------------------------------------------ *\
+	Section cobrand
+\* ------------------------------------------------------------ */
+
+.section-cobrand { background: #f3f1ed; padding: 30px 0; }
+.section-cobrand .inside { width: 1170px; margin: auto; }
+
+.section-cobrand .section__inner { display: flex;  }
+.section-cobrand .section__image { position: relative; display: inline-block; width: 209px; height: 31px; background-size: 100% 100%; background-image: url(images/wine-paris-vinexpo@2.png); flex-shrink: 0; margin-top: 6px;}
+.section-cobrand .section__content { margin: 0; font-size: 12.5px; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.3em; font-weight: 400; line-height: 1.79; color: #161616; text-transform: uppercase; width: auto; }
+.section-cobrand .section__content p { padding-left: 40px; }
+
+
+.link-alt { font-family: 'Brandon Grotesque', sans-serif; font-weight: 700; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; margin-left: 3px; margin-top: 17px; display: inline-block; color: #231f20; }
+.link-alt:hover { color: #231f20; }
+.link-alt i { width: 14px; height: 7px; margin-left: 10px; }
+
+@media (max-width: 1240px) {
+	.section-cobrand .inside { width: 900px; margin: auto; }
+}
