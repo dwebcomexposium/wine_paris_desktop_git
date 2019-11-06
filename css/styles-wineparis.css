@@ -2405,7 +2405,7 @@ button.js-mySelection span { position: relative; z-index: 5; }
 
 .section-cobrand .section__inner { display: flex;  }
 .section-cobrand .section__image { position: relative; display: inline-block; width: 209px; height: 31px; background-size: 100% 100%; background-image: url(images/wine-paris-vinexpo@2.png); flex-shrink: 0; margin-top: 6px;}
-.section-cobrand .section__content { margin: 0; font-size: 12.5px; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.3em; font-weight: 400; line-height: 1.79; color: #161616; text-transform: uppercase; width: auto; }
+.section-cobrand .section__content { margin: 0; font-size: 13px; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.3em; font-weight: 400; line-height: 1.79; color: #161616; text-transform: uppercase; width: auto; }
 .section-cobrand .section__content p { padding-left: 40px; }
 
 
