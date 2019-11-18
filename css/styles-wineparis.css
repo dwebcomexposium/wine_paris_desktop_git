@@ -1530,7 +1530,7 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
         
         
         
-.h-video { display: flex; padding: 40px 50px; background: #000; justify-content: center; margin: 50px 0; max-width: 920px; margin: 50px auto; position: relative; }
+.h-video { display: flex; padding: 40px 50px; background: #000; justify-content: center; margin: 65px 0; max-width: 920px; margin: 50px auto; position: relative; }
 .h-video:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/arrow-down-big.png) no-repeat 0 0; width: 54px; height: 15px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }        
 
 /* ------------------------------------------------------------ *\
