@@ -300,6 +300,19 @@ body.exposer header .links-subheader { display: none; }
 .article-content .style4 { max-width: 750px; margin: 0 auto; padding: 50px 0 70px; }
 
 
+
+
+
+.article-content ul.style3 li:after { content: ''; position: absolute; width: 12px; height: 16px; top: 12px; left: 2px; margin-top: -9px; background-image: url(images/ico-arrow-red.png); background-size: 100% 100%;}
+
+.article-content ul.style3 p { font-weight: 300; }
+
+.article-content ul.style3 li:before { background: none; display: none; }
+
+
+
+
+
 /*landing lp*/
 body.lp .article-content ul.style2 { width: 570px; margin: 0 auto; padding-bottom: 30px; }
 body.lp .article-content ul.style2 li { position: relative; width: 270px; }
