@@ -300,16 +300,16 @@ body.exposer header .links-subheader { display: none; }
 .article-content .style4 { max-width: 750px; margin: 0 auto; padding: 50px 0 70px; }
 
 
-
-
-
 .article-content ul.style3 li:after { content: ''; position: absolute; width: 12px; height: 16px; top: 12px; left: 2px; margin-top: -9px; background-image: url(images/ico-arrow-red.png); background-size: 100% 100%;}
 
 .article-content ul.style3 p { font-weight: 300; }
-
 .article-content ul.style3 li:before { background: none; display: none; }
+.article-content ul.style3 li strong { font-weight: 300; color: #bc2131; }
 
 
+/*landing lp-on*/
+body.lp-on .article-content h3 {color: #214955; font-size: 24px; font-weight: 900; letter-spacing: 0.025em; }
+body.lp-on .article-content h3:after {background: #214955; top: -16px; width: 30px; height: 6px; }
 
 
 
@@ -327,7 +327,7 @@ body.lp .article-content hr { margin-bottom: 80px; display: block; }
 .article-content ul.style2 a.lien1 { background: #ef662f; line-height: 1.2; position: relative; margin-top: 22px; display: inline-block; font-family: 'Brandon Grotesque', sans-serif; position: relative; padding: 13px 47px 13px 20px; font-size: 14px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: #fff; z-index: 10; /*margin-right: 30px; */text-decoration: none; text-align: left; }
 .article-content ul.style2 a.lien1:before { content: ''; display: inline-block; background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; position: absolute; top: 24px; right: 18px; -webkit-background-size: 100% 100%; background-size: 100% 100%; left: auto; }
 
-.article-content ul.style2 a.lien1:hover { background-color:#231f20 ; }
+.article-content ul.style2 a.lien1:hover { background-color:#231f20;  }
 
 
 .article-content p.important2 { margin: 0; padding: 28px 0; border: none; font-size: 22px; line-height: 1.03; max-width: 235px; text-transform: uppercase; color: #231f20; font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; letter-spacing: 0.025em; position: absolute; margin-top: 20px; }
