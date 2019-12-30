@@ -304,7 +304,7 @@ body.exposer header .links-subheader { display: none; }
 
 .article-content ul.style3 p { font-weight: 300; }
 .article-content ul.style3 li:before { background: none; display: none; }
-.article-content ul.style3 li strong { font-weight: 300; color: #bc2131; }
+.article-content ul.style3 li strong { color: #bc2131; }
 
 
 /*landing lp-on*/
@@ -2429,3 +2429,5 @@ button.js-mySelection span { position: relative; z-index: 5; }
 @media (max-width: 1240px) {
 	.section-cobrand .inside { width: 900px; margin: auto; }
 }
+
+
