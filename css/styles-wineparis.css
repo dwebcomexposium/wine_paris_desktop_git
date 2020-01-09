@@ -2433,6 +2433,8 @@ button.js-mySelection span { position: relative; z-index: 5; }
 
 /*Wine off */
 
+.is-stuck .main-navigation { display: none; }
+
 .h-fullframe { display: flex; padding: 80px 100px; background: #000; justify-content: center; margin: 65px 0; /*max-width: 95vw;*/ margin: 50px auto; position: relative; }
 .h-fullframe:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/arrow-down-big.png) no-repeat 0 0; width: 54px; height: 15px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }    
 
