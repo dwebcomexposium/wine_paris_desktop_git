@@ -2437,6 +2437,22 @@ button.js-mySelection span { position: relative; z-index: 5; }
 
 .h-fullframe { display: flex; padding: 80px 100px; background: #000; justify-content: center; margin: 65px 0; /*max-width: 95vw;*/ margin: 50px auto; position: relative; }
 .h-fullframe:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/arrow-down-big.png) no-repeat 0 0; width: 54px; height: 15px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }    
-
-
 .full-width { width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; }  
+
+.map-list p { font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 11px; letter-spacing: .025em; }
+.map-list p strong { font-family: 'Brandon Grotesque', sans-serif; font-weight: 700; font-size: 20px; }
+.map-list p.desc { font-size: 14px; padding-bottom: 5px; color: #000; }
+.map-list p.heart {color: #dd5a58; margin-left: 33px; position: relative; margin-bottom: 2px; font-weight: 400!important; font-size: 13px; }
+.map-list p.heart:after { content: ''; position: absolute; width: 23px; height: 23px; top: 50%; left: -35px; margin-top: -9px; background-image: url(images/ico-heart.svg); background-size: 100% 100%;  }
+
+.map-list p.adress {  padding-bottom: 9px; padding-top: 10px; font-weight: 300; }
+.map-list p.phone { font-weight: 600; color: #dd5a58; font-size: 14px; padding-bottom: 10px; position: relative; margin-left: 33px; }
+.map-list p.phone:after { content: ''; position: absolute; width: 20px; height: 20px; top: 10px; left: -32px; margin-top: -9px; background-image: url(images/ico-phone.svg); background-size: 100% 100%; }
+.map-list p.price {  padding-top: 9px; font-size: 12px; font-weight: 300; }
+.map-list p.date {  padding-top: 2px;  }
+.map-list p.web { font-weight: 600; font-size: 12px;  }
+.map-list h3 { font-family: 'Brandon Grotesque', sans-serif; font-weight: 700; font-size: 33px; line-height: 1.33; letter-spacing: 0.05em; color: #000; margin-top: 24px; text-transform: none; }
+.map-list h3:after {  display: none;  }
+.map-list ul {  }
+.map-list li {  padding-left: 0!important;  border-top: 10px solid rgba(229, 223, 211, 0.63); margin: 40px 0!important; }
+.map-list li:before {  display: none!important;  }
