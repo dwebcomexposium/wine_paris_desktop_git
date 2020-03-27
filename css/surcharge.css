@@ -1,6 +1,13 @@
-@charset "utf-8";
-/* CSS Document - Surcharge css Agence */
-
 .page-events .catal-ex-item-buttons, .page-events .topics_event {
    display: none;
+}
+
+a.widget-icon.openCapTrigger {
+    display: none;
+}
+.intro-alt .list-links:before {
+    background-image: none;
+}
+.fixed-logo .intro-alt .logo {
+    display: none;
 }
