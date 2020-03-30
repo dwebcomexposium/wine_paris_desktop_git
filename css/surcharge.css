@@ -11,3 +11,29 @@ a.widget-icon.openCapTrigger {
 .fixed-logo .intro-alt .logo {
     display: none;
 }
+
+
+.logo {
+    display: inline-block;
+    background: url(images/wv.jpg) no-repeat 0 0;
+    width: 520px;
+    height: 318px;
+}
+
+.intro-alt .intro__content {
+    max-width: 492px;
+    padding: 153px 35px 50px 152px;
+    text-align: center;
+}
+.intro-alt .intro__inner:before {
+    content: '';
+    position: absolute;
+    top: -52px;
+    left: 57px;
+    width: 586px;
+    height: 17vh;
+    min-height: 568px;
+    background: #fff;
+    opacity: .17;
+    pointer-events: none;
+}
