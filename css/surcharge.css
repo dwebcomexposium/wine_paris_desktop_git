@@ -11,7 +11,13 @@ a.widget-icon.openCapTrigger {
 .fixed-logo .intro-alt .logo {
     display: none;
 }
+body.article .site-wrapper:before {
+    background-image: none;
+}
 
+header.site-banner.fixed .header-content .logo {
+    display: none;
+}
 
 .logo {
     display: inline-block;
