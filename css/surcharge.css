@@ -43,3 +43,14 @@ header.site-banner.fixed .header-content .logo {
     opacity: .17;
     pointer-events: none;
 }
+.section-socials .section__body .logo-big {
+    margin: 68px auto 30px;
+}
+.logo-big {
+    display: inline-block;
+    background: url(images/winers.jpg) no-repeat 0 0;
+    width: 333px;
+    height: 127px;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
