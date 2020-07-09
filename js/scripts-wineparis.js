@@ -63,7 +63,7 @@
 
 
 	//Animate Sections
-	var $animated = $('.animated');
+	var $wbanimated = $('.wbanimated');
 
 	var winHeight = $win.height();
 	var winWidth = $win.width();
@@ -72,20 +72,20 @@
 	function animateElements() {
 		winScroll = $win.scrollTop();
 
-		if ( $animated.length === 0 ) {
+		if ( $wbanimated.length === 0 ) {
 			return;
 		}
 	};
 
 
 	function animate(winST) {
-	$('.animate').each(function(){
+	$('.wbanimate').each(function(){
 		var $this = $(this);
 
 		if (winST + ($win.outerHeight() / 1.3) > $this.offset().top) {
-			$this.addClass('animated');
+			$this.addClass('wbanimated');
 		} else if (winST + ($win.outerHeight() / 2) < $this.offset().top) {
-			$this.removeClass('animated');
+			$this.removeClass('wbanimated');
 		}
 		});
 	}
@@ -98,7 +98,7 @@
 		$('.btn-down').on('click', function(e) {
 			e.preventDefault();
 
-			$('html, body').animate({
+			$('html, body').wbanimate({
 				scrollTop: $( $(this).closest('.zone').next() ).offset().top
 			})
 		})
@@ -158,18 +158,18 @@
 
 
 		// Class animation scroll
-		$('.edito-vin').addClass('animate')
-		$('.evenements .gla-item').addClass('animate')
-		$('.observatoire').addClass('animate')
-		$('.quicklinks.links-infos').addClass('animate')
-        $('.partner.partenaires').addClass('animate')
-        $('.pourquoi-exposer').addClass('animate')
-	    $('.pagination').addClass('animate')
+		$('.edito-vin').addClass('wbanimate')
+		$('.evenements .gla-item').addClass('wbanimate')
+		$('.observatoire').addClass('wbanimate')
+		$('.quicklinks.links-infos').addClass('wbanimate')
+        $('.partner.partenaires').addClass('wbanimate')
+        $('.pourquoi-exposer').addClass('wbanimate')
+	    $('.pagination').addClass('wbanimate')
 
 //        $('.article-intro').addClass('animate')
 //        $('.article-content').addClass('animate')
-        $('.article-content .cl-item').addClass('animate')
-        $('.article-navigation').addClass('animate')
+        $('.article-content .cl-item').addClass('wbanimate')
+        $('.article-navigation').addClass('wbanimate')
 
 
 		//Caroufredsel
