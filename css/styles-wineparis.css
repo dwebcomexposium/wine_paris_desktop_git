@@ -478,9 +478,9 @@ body.gallery .article-content figure { float: left; padding: 0 20px 20px 0; }
     Animate Elements
 \* ------------------------------------------------------------ */
 
-.animate { opacity: 0; -webkit-transform: translateY(50px); -ms-transform: translateY(50px); -o-transform: translateY(50px); transform: translateY(50px);  transition: -webkit-transform .4s, opacity .4s; transition: -ms-transform .4s, opacity .4s; transition: -o-transform .4s, opacity .4s; -webkit-transition: transform .4s, opacity .4s; -o-transition: transform .4s, opacity .4s; transition: transform .4s, opacity .4s; }
+.wbanimate { opacity: 0; -webkit-transform: translateY(50px); -ms-transform: translateY(50px); -o-transform: translateY(50px); transform: translateY(50px);  transition: -webkit-transform .4s, opacity .4s; transition: -ms-transform .4s, opacity .4s; transition: -o-transform .4s, opacity .4s; -webkit-transition: transform .4s, opacity .4s; -o-transition: transform .4s, opacity .4s; transition: transform .4s, opacity .4s; }
 
-.animated { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+.wbanimated { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
 
 /* ------------------------------------------------------------ *\
     Global Wrapper
@@ -1375,7 +1375,7 @@ header.site-banner.fixed .socials--alt { top: 250px; margin-top: 0; }
     Link Infos
 \* ------------------------------------------------------------ */
 
-.links-infos { background: url(images/bg1.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; padding: 53px 0 102px; }
+.links-infos { background: url(images/bg-pratique.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; padding: 53px 0 102px; }
 
 .links-infos .block-title { border: none; padding: 0; margin: 0 0 49px; text-align: center; font-size: 21px; font-weight: 900; letter-spacing: 0.05em; color: #fff;  }
 
