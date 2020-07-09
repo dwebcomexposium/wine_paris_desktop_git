@@ -1110,7 +1110,7 @@ z-index: 100; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; poin
     Features
 \* ------------------------------------------------------------ */
 
-.features { display: flex; border: 3px solid #231f20; flex-wrap: wrap; }
+.features { display: flex; border: 3px solid #231f20; flex-wrap: wrap; position: relative; z-index: 9;  }
 .features .feature { flex: 0 0 33.33%; max-width: 33.33%; }
 
 /* ------------------------------------------------------------ *\
