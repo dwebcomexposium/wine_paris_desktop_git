@@ -9,8 +9,6 @@
 
 	
 
-	
-
 	function initHomepageSlider() {
 	    var $slider = $('.observatoire .la-slider');
 	    var $clone = $slider.clone();
